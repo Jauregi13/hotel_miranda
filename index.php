@@ -27,6 +27,22 @@
                     </div>
                 </div>
             </div>
+
+            <div class="home-content__booking-calendar">
+
+                <form class="home-content__booking-calendar__form">
+
+                    <label for="arrival">Arrival Date</label>
+                    <input type="date" name="arrival">
+
+                    <label for="departure">LeDeparture Date</label>
+                    <input type="date" name="departure">
+
+                    <input type="submit" value="CHECK AVAILABILITY" name="check"/>
+
+
+                </form>
+            </div>
         </div>
 
         
