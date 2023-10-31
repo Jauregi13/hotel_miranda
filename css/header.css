@@ -5,6 +5,7 @@
   height: 3.5em;
   display: flex;
   justify-content: space-between;
+  position: fixed;
 }
 .header__content {
   height: inherit;

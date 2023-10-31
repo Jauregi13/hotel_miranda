@@ -1,0 +1,55 @@
+
+
+.home-content__banner-home {
+    width: 100%;
+    background-color: #333333;
+    margin-top: 3.5em;
+
+    &__content {
+        padding-left: 1em;
+        color: #FFFFFF;
+        &__text {
+
+            font-size: 0.7em;
+            letter-spacing: 2.8px;
+            width: 17em;
+            padding-top: 3em;
+            font-weight: 700;
+            margin-bottom: 3em;
+        }
+
+        &__title {
+
+            font-family: 'Old Standard TT';
+            font-weight: 400;
+            letter-spacing: -1.2px;
+            font-size: 4em;
+            margin-bottom: 0.5em;
+        }
+
+        &__buttons {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            padding-bottom: 4em;
+            
+            &__tour {
+                color: #FFFFFF;
+                background-color: #BEAD8E;
+                margin-bottom: 1em;
+                border: none;
+                height: 3em;
+            }
+
+            &__learn {
+                border: 2px solid rgba($color: #FFFFFF, $alpha: 0.3);
+                height: 3em;
+                color: #FFFFFF;
+                background-color: #333333;
+
+            }
+        }
+    }
+
+    
+}
