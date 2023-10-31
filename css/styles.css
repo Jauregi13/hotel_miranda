@@ -94,6 +94,55 @@
   background-color: #333333;
 }
 
+.home-content__booking-calendar {
+  background-color: #222222;
+}
+.home-content__booking-calendar__form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-bottom: 2em;
+}
+.home-content__booking-calendar__form label {
+  font-family: "Roboto";
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+.home-content__booking-calendar__form input[type=date] {
+  width: 80%;
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid #BEAD8E;
+  background-color: #222222;
+  margin-bottom: 2em;
+  color: #686868;
+  font-family: "Roboto";
+  padding-left: 2em;
+  padding-bottom: 0.5em;
+}
+.home-content__booking-calendar__form input[type=date]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  left: 1em;
+  background-image: url("./../img/calendarIcon.svg");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
+.home-content__booking-calendar__form input[type=date]:focus {
+  appearance: none;
+  outline: none;
+}
+.home-content__booking-calendar__form input[type=submit] {
+  background-color: #BEAD8E;
+  width: 60%;
+  color: #FFFFFF;
+  border: none;
+  height: 3em;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
