@@ -43,6 +43,15 @@
 
                 </form>
             </div>
+
+            <div class="home-content__about-us">
+
+                <h1>ABOUT US</h1>
+                <h2>Discover Our Underground.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button>BOOK NOW</button>
+            </div>
         </div>
 
         

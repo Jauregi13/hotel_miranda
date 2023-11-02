@@ -54,6 +54,7 @@
   width: 100%;
   background-color: #333333;
   margin-top: 3.5em;
+  padding-top: 2em;
 }
 .home-content__banner-home__content {
   padding-left: 1em;
@@ -96,6 +97,7 @@
 
 .home-content__booking-calendar {
   background-color: #222222;
+  margin-bottom: 2em;
 }
 .home-content__booking-calendar__form {
   display: flex;
@@ -140,6 +142,41 @@
   width: 60%;
   color: #FFFFFF;
   border: none;
+  height: 3em;
+}
+
+.home-content__about-us {
+  background-color: #F9F9F9;
+  padding-left: 1em;
+  padding-bottom: 10em;
+}
+.home-content__about-us h1 {
+  color: #777777;
+  font-size: 13px;
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+.home-content__about-us h2 {
+  font-family: "Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  margin-bottom: 0.5em;
+}
+.home-content__about-us p {
+  color: #777777;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 2em;
+  line-height: 24px;
+}
+.home-content__about-us button {
+  background-color: #BDAC8D;
+  color: #FFFFFF;
+  border: none;
+  width: 40%;
   height: 3em;
 }
 
