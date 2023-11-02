@@ -1,0 +1,43 @@
+
+
+.home-content__about-us {
+
+    background-color: #F9F9F9;
+    padding-left: 1em;
+    padding-bottom: 10em;
+
+    & h1 {
+        color: #777777;
+        font-size: 13px;
+        padding-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    & h2 {
+        font-family: 'Old Standard TT';
+        font-size: 56px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+        margin-bottom: 0.5em;
+    }
+
+    & p {
+        color: #777777;
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 2em;
+        line-height: 24px;
+    }
+
+    & button {
+
+        background-color: #BDAC8D;
+        color: #FFFFFF;
+        border: none;
+        width: 40%;
+        height: 3em;
+    }
+
+}
