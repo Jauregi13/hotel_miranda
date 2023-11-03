@@ -14,6 +14,7 @@ $font_secondary: 'Archivo';
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 
     &__content {
         height: inherit;
