@@ -7,21 +7,14 @@
         background-color: #F9F9F9;
         padding-left: 1em;
         padding-bottom: 10em;
-
-        & h1 {
-            color: #777777;
-            font-size: 13px;
+    
+        & h2 {
             padding-top: 2em;
             margin-bottom: 2em;
         }
-    
-        & h2 {
-            font-family: 'Old Standard TT';
-            font-size: 56px;
-            font-weight: 400;
+
+        & h3 {
             text-align: center;
-            line-height: 60px;
-            letter-spacing: -1.2px;
             margin-bottom: 0.5em;
         }
     
@@ -50,11 +43,12 @@
         margin: 0 auto;
         text-align: center;
         padding-bottom: 4em;
-        box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
 
         &__team {
 
-            margin-bottom: 8em;
+            margin-bottom: 5em;
+            padding-bottom: 3em;
+            box-shadow: 0 8px 16px -10px rgba($color: #222222, $alpha: 0.2);
         
             &__image {
                 background-color: #E4E4E4;
@@ -77,21 +71,13 @@
                 }
             }
     
-            & h1 {
-                font-family: 'Old Standard TT';
-                font-size: 30px;
-                font-weight: 400;
-                line-height: 30px;
-                letter-spacing: -0.9px;
+            & h4 {
                 color: #111111;
                 margin-bottom: 1em;
             }
     
             & p {
-                font-family: 'Roboto';
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 22px;
+                @extend .paragraph2;
                 color: #111111;
                 width: 75%;
                 margin: 0 auto;
@@ -114,22 +100,14 @@
                     margin-bottom: 2em;
                 }
 
-                & h1 {
+                &__title {
                     color: #FFFFFF;
-                    font-family: 'Old Standard TT';
-                    font-weight: 400;
-                    font-size: 30px;
-                    line-height: 30px;
-                    letter-spacing: -0.9px;
                     margin-bottom: 1em;
                 }
 
                 & p {
-                    font-family: 'Roboto';
+                    @extend .paragraph2;
                     color: #FFFFFF;
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 22px;
                     width: 75%;
                     margin: 0 auto;
                 }
