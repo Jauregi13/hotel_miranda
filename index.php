@@ -125,6 +125,16 @@
                     <p class="home-content__rooms__room-info__price">$345<span>/Night</span></p>
                 </div>
             </section>
+
+            <section class="home-content__video">
+
+                <h2>INTRO VIDEO</h2>
+                <h3>Meet With Our Luxury Place.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
+                <iframe src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25" width="95%" height="280px" frameborder="0"></iframe>
+                <button>BOOK NOW</button>
+            </section>
         </div>
 
         
