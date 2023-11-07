@@ -167,11 +167,7 @@
   line-height: 24px;
 }
 .home-content__about-us__info button {
-  background-color: #BDAC8D;
-  color: #FFFFFF;
-  border: none;
   width: 40%;
-  height: 3em;
 }
 .home-content__about-us__extra-info {
   width: 80%;
@@ -310,6 +306,33 @@
   display: none;
 }
 
+.home-content__video {
+  background-color: #222222;
+  padding-top: 2em;
+  padding-left: 1em;
+}
+.home-content__video h2 {
+  color: #BDAC8D;
+  margin-bottom: 2em;
+}
+.home-content__video h3 {
+  width: 80%;
+  color: #FFFFFF;
+  margin-bottom: 0.5em;
+}
+.home-content__video p {
+  margin-bottom: 2em;
+  width: 95%;
+  color: #C2C2C2;
+}
+.home-content__video iframe {
+  margin-bottom: 2em;
+}
+.home-content__video button {
+  width: 40%;
+  margin-bottom: 3em;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
@@ -360,6 +383,13 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+
+button {
+  background-color: #BDAC8D;
+  color: #FFFFFF;
+  border: none;
+  height: 3em;
 }
 
 .paragraph2, .home-content__about-us__extra-info__team p, .home-content__about-us__extra-info__luxury__room p {
