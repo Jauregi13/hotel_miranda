@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT");
+@import url("https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto");
 .header {
   padding-bottom: 1em;
   background-color: #FFFFFF;
@@ -151,19 +151,12 @@
   padding-left: 1em;
   padding-bottom: 10em;
 }
-.home-content__about-us__info h1 {
-  color: #777777;
-  font-size: 13px;
+.home-content__about-us__info h2 {
   padding-top: 2em;
   margin-bottom: 2em;
 }
-.home-content__about-us__info h2 {
-  font-family: "Old Standard TT";
-  font-size: 56px;
-  font-weight: 400;
+.home-content__about-us__info h3 {
   text-align: center;
-  line-height: 60px;
-  letter-spacing: -1.2px;
   margin-bottom: 0.5em;
 }
 .home-content__about-us__info p {
@@ -185,10 +178,11 @@
   margin: 0 auto;
   text-align: center;
   padding-bottom: 4em;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
 }
 .home-content__about-us__extra-info__team {
-  margin-bottom: 8em;
+  margin-bottom: 5em;
+  padding-bottom: 3em;
+  box-shadow: 0 8px 16px -10px rgba(34, 34, 34, 0.2);
 }
 .home-content__about-us__extra-info__team__image {
   background-color: #E4E4E4;
@@ -208,20 +202,11 @@
   left: 2em;
   z-index: -1;
 }
-.home-content__about-us__extra-info__team h1 {
-  font-family: "Old Standard TT";
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: -0.9px;
+.home-content__about-us__extra-info__team h4 {
   color: #111111;
   margin-bottom: 1em;
 }
 .home-content__about-us__extra-info__team p {
-  font-family: "Roboto";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 22px;
   color: #111111;
   width: 75%;
   margin: 0 auto;
@@ -238,23 +223,91 @@
 .home-content__about-us__extra-info__luxury__room img {
   margin-bottom: 2em;
 }
-.home-content__about-us__extra-info__luxury__room h1 {
+.home-content__about-us__extra-info__luxury__room__title {
   color: #FFFFFF;
-  font-family: "Old Standard TT";
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 30px;
-  letter-spacing: -0.9px;
   margin-bottom: 1em;
 }
 .home-content__about-us__extra-info__luxury__room p {
-  font-family: "Roboto";
   color: #FFFFFF;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
   width: 75%;
   margin: 0 auto;
+}
+
+.home-content__rooms {
+  text-align: center;
+}
+.home-content__rooms h2 {
+  margin-bottom: 2em;
+}
+.home-content__rooms h3 {
+  margin-bottom: 1em;
+}
+.home-content__rooms__icons {
+  background-color: #FFFFFF;
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  padding-left: 2em;
+  position: relative;
+  top: 2em;
+  z-index: 2;
+}
+.home-content__rooms__icons i {
+  margin-right: 1.2em;
+}
+.home-content__rooms__room-info {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 80%;
+  padding-top: 1.5em;
+  position: relative;
+  bottom: 2em;
+  z-index: 2;
+}
+.home-content__rooms__room-info h4 {
+  margin-bottom: 0.5em;
+}
+.home-content__rooms__room-info p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+.home-content__rooms__room-info__price {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #BEAD8E;
+}
+.home-content__rooms__room-info__price span {
+  font-size: 13px;
+}
+
+.swiper {
+  width: 100%;
+  height: 16em;
+}
+.swiper-wrapper img {
+  height: inherit;
+  width: 100%;
+}
+.swiper-button-next, .swiper-button-prev {
+  background-color: #BDAC8D;
+}
+.swiper-button-next i, .swiper-button-prev i {
+  color: #FFFFFF;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  opacity: 1 !important;
+  background-color: #FFFFFF;
+}
+.swiper-button-next.swiper-button-disabled i, .swiper-button-prev.swiper-button-disabled i {
+  color: #000000;
+}
+.swiper-button-prev::after, .swiper-button-next::after {
+  content: "";
+  display: none;
 }
 
 html, * {
@@ -266,6 +319,51 @@ html, * {
 
 body {
   min-width: 320px;
+}
+
+h1 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 4em;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  color: #777777;
+}
+
+h3 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #111111;
+}
+
+h4 {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.9px;
+  color: #111111;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.paragraph2, .home-content__about-us__extra-info__team p, .home-content__about-us__extra-info__luxury__room p {
+  font-family: "Roboto";
 }
 
 /*# sourceMappingURL=styles.css.map */
