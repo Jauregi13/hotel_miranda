@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script defer src="./js/slider.js"></script>
+        <script defer src="./js/sliders.js"></script>
         <title>Home</title>
     </head>
     <body>
@@ -95,7 +95,7 @@
                     <i class="fa-solid fa-ban-smoking"></i>
                     <i class="fa-solid fa-martini-glass-citrus"></i>
                 </div>
-                <div class="swiper">
+                <div class="swiper slider-type1">
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
@@ -134,6 +134,81 @@
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
                 <iframe src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25" width="95%" height="280px" frameborder="0"></iframe>
                 <button>BOOK NOW</button>
+            </section>
+
+            <section class="home-content__facilities">
+
+                <h2>FACILITIES</h2>
+                <h3>Core Features</h3>
+                <div class="swiper slider-type2">
+
+                    <div class="swiper-wrapper swiper-wrapper--size-change">
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__icons">
+                                <div class="swiper-slide__icons__icon">
+                                    <img src="./img/iconFeature1.svg" alt="iconFeature1">
+                                </div>
+                                <span>01</span>
+                            </div>
+                            <h4>Have High Rating</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__icons">
+                                <div class="swiper-slide__icons__icon">
+                                    <img src="./img/iconFeature2.svg" alt="iconFeature2">
+                                </div>
+                                <span>02</span>
+                            </div>
+                            <h4>Quiet Hours</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__icons">
+                                <div class="swiper-slide__icons__icon">
+                                    <img src="./img/iconFeature3.svg" alt="iconFeature3">
+                                </div>
+                                <span>03</span>
+                            </div>
+                            <h4>Best Locations</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__icons">
+                                <div class="swiper-slide__icons__icon">
+                                    <img src="./img/iconFeature4.svg" alt="iconFeature4">
+                                </div>
+                                <span>04</span>
+                            </div>
+                            <h4>Free Cancellation</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__icons">
+                                <div class="swiper-slide__icons__icon">
+                                    <img src="./img/iconFeature5.svg" alt="iconFeature5">
+                                </div>
+                                <span>05</span>
+                            </div>
+                            <h4>Payment Options</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__icons">
+                                <div class="swiper-slide__icons__icon">
+                                    <img src="./img/iconFeature6.svg" alt="iconFeature6">
+                                </div>
+                                <span>06</span>
+                            </div>
+                            <h4>Special Offers</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
             </section>
         </div>
 
