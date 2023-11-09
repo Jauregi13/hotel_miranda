@@ -181,7 +181,8 @@
   box-shadow: 0 8px 16px -10px rgba(34, 34, 34, 0.2);
 }
 .home-content__about-us__extra-info__team__image {
-  background-color: #E4E4E4;
+  background-image: url("./../../img/home1.jpg");
+  background-size: 100% 18em;
   height: 18em;
   position: relative;
   bottom: 6em;
@@ -208,7 +209,8 @@
   margin: 0 auto;
 }
 .home-content__about-us__extra-info__luxury__image {
-  background-color: #E4E4E4;
+  background-image: url("./../../img/home2.jpg");
+  background-size: 100% 18em;
   height: 18em;
 }
 .home-content__about-us__extra-info__luxury__room {
