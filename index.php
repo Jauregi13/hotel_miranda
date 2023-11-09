@@ -210,6 +210,35 @@
                 </div>
 
             </section>
+
+            <section class="home-content__data">
+
+                <div class="home-content__data__projects">
+                    <img src="./img/projectIcon.svg" alt="projectIcon">
+                    <h3>84k<span>+</span></h3>
+                    <p>Projects are Completed</p>
+                </div>
+
+                <div class="home-content__data__backers">
+                    <img src="./img/backersIcon.svg" alt="backersIcon">
+                    <h3>10M<span>+</span></h3>
+                    <p>Active Backers Around World</p>
+                </div>
+
+                <div class="home-content__data__categories">
+                    <img src="./img/categoriesIcon.svg" alt="categoriesIcon">
+                    <h3>02K<span>+</span></h3>
+                    <p>Categories Served</p>
+                </div>
+
+                <div class="home-content__data__ideas">
+                    <img src="./img/ideasIcon.svg" alt="ideasIcon">
+                    <h3>100M<span>+</span></h3>
+                    <p>Idea Raised Funds</p>
+                </div>
+
+
+            </section>
         </div>
 
         

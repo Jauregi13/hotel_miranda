@@ -404,6 +404,30 @@
   background-color: #EDEDED;
 }
 
+.home-content__data {
+  width: 100%;
+  background-color: #222222;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3em;
+}
+.home-content__data__projects img, .home-content__data__backers img, .home-content__data__categories img, .home-content__data__ideas img {
+  margin-bottom: 3em;
+}
+.home-content__data__projects h3, .home-content__data__backers h3, .home-content__data__categories h3, .home-content__data__ideas h3 {
+  font-family: "Roboto";
+  color: #FFFFFF;
+  font-size: 60px;
+  line-height: 25px;
+}
+.home-content__data__projects h3 span, .home-content__data__backers h3 span, .home-content__data__categories h3 span, .home-content__data__ideas h3 span {
+  font-size: 18px;
+}
+.home-content__data__projects p, .home-content__data__backers p, .home-content__data__categories p, .home-content__data__ideas p {
+  color: #999999;
+  padding-bottom: 3em;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
