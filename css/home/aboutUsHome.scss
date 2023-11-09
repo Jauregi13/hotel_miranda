@@ -46,7 +46,8 @@
             box-shadow: 0 8px 16px -10px rgba($color: #222222, $alpha: 0.2);
         
             &__image {
-                background-color: #E4E4E4;
+                background-image: url('./../../img/home1.jpg');
+                background-size: 100% 18em;
                 height: 18em;
                 position: relative;
                 bottom: 6em;
@@ -82,7 +83,8 @@
         &__luxury {
 
             &__image {
-                background-color: #E4E4E4;
+                background-image: url('./../../img/home2.jpg');
+                background-size: 100% 18em;
                 height: 18em;
             }
 
