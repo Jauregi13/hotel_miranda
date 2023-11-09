@@ -1,0 +1,28 @@
+
+.home-content__data {
+    width: 100%;
+    background-color: #222222;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3em;
+
+    &__projects, &__backers, &__categories, &__ideas {
+
+        & img {
+            margin-bottom: 3em;
+        }
+        & h3 {
+            font-family: 'Roboto';
+            color: #FFFFFF;
+            font-size: 60px;
+            line-height: 25px;
+            & span {
+                font-size: 18px;
+            }
+        }
+        & p {
+            color: #999999;
+            padding-bottom: 3em;
+        }
+    }
+}
