@@ -51,6 +51,121 @@
   display: flex;
 }
 
+.footer__content {
+  background-image: url("./../img/backgroundFooter.svg");
+  padding-top: 2em;
+  padding-left: 2em;
+  width: 100%;
+}
+.footer__content h3 {
+  font-size: 24px;
+}
+.footer__content__logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.footer__content__logo__icon {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 43px;
+  color: #FFFFFF;
+  background-color: #BEAD8E;
+  padding: 0.6em;
+  margin-right: 1em;
+}
+.footer__content__logo__title {
+  font-size: 26px;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  width: 50%;
+}
+.footer__content__introduction {
+  width: 90%;
+  color: #777777;
+  margin-bottom: 2em;
+}
+.footer__content__social-media i {
+  font-size: 40px;
+  color: #777777;
+  margin-right: 0.2em;
+  padding: 0.2em;
+  background-color: #F8F8F8;
+}
+.footer__content__social-media {
+  margin-bottom: 2em;
+}
+.footer__content__social-media i:hover {
+  background-color: #BEAD8E;
+  color: #FFFFFF;
+}
+.footer__content__services {
+  margin-bottom: 1em;
+}
+.footer__content__services__columns {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__content__services__column {
+  flex: 0 0 50%;
+}
+.footer__content__services ul {
+  list-style-type: none;
+}
+.footer__content__services ul li {
+  color: #777777;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 48px;
+}
+.footer__content__services ul li::before {
+  content: "+";
+  margin-right: 0.5em;
+}
+.footer__content__contact-us__telephone, .footer__content__contact-us__email, .footer__content__contact-us__location {
+  display: flex;
+}
+.footer__content__contact-us__telephone img, .footer__content__contact-us__email img, .footer__content__contact-us__location img {
+  margin-right: 2em;
+}
+.footer__content__contact-us__telephone__info__text, .footer__content__contact-us__email__info__text, .footer__content__contact-us__location__info__text {
+  font-family: "Old Standard TT";
+  font-size: 20px;
+  line-height: 24px;
+  color: #222222;
+}
+.footer__content__contact-us__telephone__info__number, .footer__content__contact-us__email__info__number, .footer__content__contact-us__location__info__number {
+  font-family: "Roboto";
+  color: #777777;
+}
+.footer__content__contact-us__telephone, .footer__content__contact-us__email {
+  margin-bottom: 3em;
+}
+.footer__content__contact-us__location {
+  padding-bottom: 2em;
+}
+.footer__copyright {
+  padding-left: 1em;
+  padding-top: 1em;
+  background-color: #F8F8F8;
+  padding-bottom: 1em;
+}
+.footer__copyright p {
+  color: #222222;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+.footer__copyright__title {
+  margin-bottom: 2em;
+}
+.footer__copyright__terms span {
+  display: inline;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
 .home-content__banner-home {
   width: 100%;
   background-color: #333333;
@@ -410,6 +525,7 @@
   margin: 0 auto;
   text-align: center;
   padding-top: 3em;
+  margin-bottom: 2em;
 }
 .home-content__data__projects img, .home-content__data__backers img, .home-content__data__categories img, .home-content__data__ideas img {
   margin-bottom: 3em;
