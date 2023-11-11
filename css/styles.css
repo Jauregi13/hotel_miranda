@@ -39,6 +39,29 @@
   font-size: 12px;
   width: 40%;
 }
+.header__content__nav {
+  display: none;
+  position: fixed;
+  top: 3.5em;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  box-shadow: 0 3px 6px -3px #000000;
+  z-index: 10;
+}
+.header__content__nav ul li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+.header__content__nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #111111;
+  font-size: 16px;
+  line-height: 17px;
+}
 .header__content__icons {
   display: flex;
   width: 30%;
