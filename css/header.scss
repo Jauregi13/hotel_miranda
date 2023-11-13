@@ -42,7 +42,7 @@ $font_secondary: 'Archivo';
     
             &__title {
                 font-family: $font_secondary;
-                font-size: 12px;
+                font-size: 0.75rem;
                 width: 40%;
             }
             
@@ -69,8 +69,8 @@ $font_secondary: 'Archivo';
                 text-decoration: none;
                 font-weight: 600;
                 color: #111111;
-                font-size: 16px;
-                line-height: 17px;
+                font-size: 1rem;
+                line-height: 1rem;
             }
         }
 

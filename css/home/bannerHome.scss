@@ -12,20 +12,11 @@
         
         &__text {
 
-            font-size: 0.7em;
-            letter-spacing: 2.8px;
-            width: 17em;
-            padding-top: 3em;
-            font-weight: 700;
-            margin-bottom: 3em;
+            @extend .text-banner;
         }
 
         &__title {
 
-            font-family: 'Old Standard TT';
-            font-weight: 400;
-            letter-spacing: -1.2px;
-            font-size: 4em;
             margin-bottom: 0.5em;
         }
 

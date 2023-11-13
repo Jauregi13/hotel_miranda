@@ -8,19 +8,18 @@
         width: 100%;
 
         & h3 {
-            font-size: 24px;
+            font-size: 1.5rem;
         }
 
         &__logo {
             display: flex;
             align-items: center;
-            
             margin-bottom: 2em;
 
             &__icon {
-                font-size: 40px;
+                font-size: 2.5rem;
                 font-weight: 700;
-                line-height: 43px;
+                line-height: 2.7rem;
                 color: #FFFFFF;
                 background-color: #BEAD8E;
                 padding: 0.6em;
@@ -28,9 +27,9 @@
             }
 
             &__title {
-                font-size: 26px;
-                line-height: 28px;
-                letter-spacing: 2.5px;
+                font-size: 1.63rem;
+                line-height: 1.75rem;
+                letter-spacing: 0.15rem;
                 width: 50%;
             }
         }
@@ -42,7 +41,7 @@
         }
 
         &__social-media i {
-            font-size: 40px;
+            font-size: 2.5rem;
             color: #777777;
             margin-right: 0.2em;
             padding: 0.2em;
@@ -80,8 +79,8 @@
             & ul li {
                 color: #777777;
                 font-family: 'Roboto';
-                font-size: 16px;
-                line-height: 48px;
+                font-size: 1rem;
+                line-height: 3rem;
             }
 
             & ul li::before {
@@ -104,8 +103,8 @@
 
                     &__text {
                         font-family: 'Old Standard TT';
-                        font-size: 20px;
-                        line-height: 24px;
+                        font-size: 1.25rem;
+                        line-height: 1.5rem;
                         color: #222222;
                     }
 
@@ -139,8 +138,8 @@
             color: #222222;
             font-family: 'Roboto';
             font-weight: 700;
-            font-size: 16px;
-            line-height: 18px;
+            font-size: 1rem;
+            line-height: 1.13rem;
         }
 
         &__title {
