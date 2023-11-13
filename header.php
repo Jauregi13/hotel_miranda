@@ -15,9 +15,9 @@
         <nav class="header__content__nav" id="menu">
             <ul>
                 <li><a href="aboutUs.php">About Us</a></li>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">Offers</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="rooms.php">Rooms</a></li>
+                <li><a href="offers.php">Offers</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
         <div class="header__content__icons">
