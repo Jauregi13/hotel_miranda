@@ -560,6 +560,43 @@
   padding-bottom: 3em;
 }
 
+.page-title {
+  margin-top: 3.5em;
+  background-color: #333333;
+  color: #FFFFFF;
+  padding-left: 1em;
+}
+.page-title__text {
+  font-size: 0.7rem;
+  letter-spacing: 0.175rem;
+  width: 17em;
+  padding-top: 3em;
+  font-weight: 700;
+  margin-bottom: 3em;
+}
+.page-title__title {
+  margin-bottom: 1em;
+}
+.page-title__breadcrumb-content {
+  background-color: #FFFFFF;
+  margin-left: 13em;
+  width: min-content;
+}
+.page-title__breadcrumb-content__text {
+  color: #222222;
+  padding: 1em;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.page-title__breadcrumb-content__text span {
+  display: inline;
+  margin-left: 1em;
+}
+.page-title__breadcrumb-content__text__page-name {
+  color: #BEAD8E;
+}
+
 /*@mixin paragraph2 {
     font-family: $font_tertiary;
 }*/
