@@ -12,7 +12,13 @@
         
         &__text {
 
-            @extend .text-banner;
+            //@include text-banner;
+            font-size: 0.7rem;
+            letter-spacing: 0.175rem;
+            width: 17em;
+            padding-top: 3em;
+            font-weight: 700;
+            margin-bottom: 3em;
         }
 
         &__title {

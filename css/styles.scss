@@ -1,8 +1,8 @@
-
+@use 'header';
+@use 'footer';
+@use 'home/home';
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto');
-@import './header.scss';
-@import './footer.scss';
-@import './home/home.scss';
+
 
 $font_primary: 'Archivo';
 $font_secondary: 'Old Standard TT';
@@ -11,6 +11,10 @@ $primary_color: #BEAD8E;
 $secondary_color: #BDAC8D;
 $h1_color: #777777;
 $h2_color_black: #111111;
+
+/*@mixin paragraph2 {
+    font-family: $font_tertiary;
+}*/
 
 html, * { 
     
@@ -72,12 +76,7 @@ button {
     height: 3em;
 }
 
-
-.paragraph2 {
-    font-family: $font_tertiary;
-}
-
-.text-banner {
+@mixin text-banner {
     font-size: 0.7rem;
     letter-spacing: 0.175rem;
     width: 17em;
@@ -85,3 +84,5 @@ button {
     font-weight: 700;
     margin-bottom: 3em;
 }
+
+

@@ -1,5 +1,4 @@
 
-
 .home-content__about-us {
 
     &__info {
@@ -70,7 +69,7 @@
             }
     
             & p {
-                @extend .paragraph2;
+                //@include paragraph2;
                 color: #111111;
                 width: 75%;
                 margin: 0 auto;
@@ -100,7 +99,7 @@
                 }
 
                 & p {
-                    @extend .paragraph2;
+                   // @include paragraph2;
                     color: #FFFFFF;
                     width: 75%;
                     margin: 0 auto;
@@ -109,11 +108,4 @@
         }
 
     }
-
-    
-
-    
-
-    
-
 }
