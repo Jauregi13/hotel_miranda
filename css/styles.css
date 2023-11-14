@@ -595,11 +595,13 @@
   margin-bottom: 1em;
 }
 .page-title__breadcrumb-content {
-  background-color: #FFFFFF;
-  margin-left: 13em;
-  width: min-content;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
 }
 .page-title__breadcrumb-content__text {
+  background-color: #FFFFFF;
   color: #222222;
   padding: 1em;
   font-weight: 700;
