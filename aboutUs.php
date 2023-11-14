@@ -17,6 +17,14 @@
             $pageName = 'About';
             include 'breadcrumb.php';
         ?>
+
+        <div class="about-content">
+
+            <section class="about-content__video-content">
+                <iframe class="about-content__video-content__video" src="https://www.youtube.com/embed/Bu3Doe45lcU" frameborder="0"></iframe>
+                <h3 class="about-content__video-content__text">Hello. Our hotel has been present for over 20 years. We make the best for all our customers.</h3>
+            </section>
+        </div>
     
     </body>
 
