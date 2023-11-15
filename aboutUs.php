@@ -45,6 +45,16 @@
                 </div>
 
             </section>
+
+            <section class="about-content__restaurant">
+
+                <img class="about-content__restaurant__img" src="./img/restaurant.jpg" alt="restaurant">
+                <h2 class="about-content__restaurant__title">RESTAURANT</h2>
+                <h3 class="about-content__restaurant__subtitle">Get Restaurant Facilities & Many Other More</h3>
+                <p class="about-content__restaurant__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                <button class="about-content__restaurant__button">TAKE A TOUR</button>
+            </section>
         </div>
     
     </body>
