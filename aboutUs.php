@@ -24,6 +24,27 @@
                 <iframe class="about-content__video-content__video" src="https://www.youtube.com/embed/Bu3Doe45lcU" frameborder="0"></iframe>
                 <h3 class="about-content__video-content__text">Hello. Our hotel has been present for over 20 years. We make the best for all our customers.</h3>
             </section>
+
+            <section class="about-content__icons-content">
+
+                <div class="about-content__icons-content__icon-block">
+                    <div class="about-content__icons-content__icon-block__icon about-content__icons-content__icon-block__icon--breakfast"></div>
+                    <p class="about-content__icons-content__icon-block__text">BREAKFAST</p>
+                </div>
+                <div class="about-content__icons-content__icon-block">
+                    <div class="about-content__icons-content__icon-block__icon about-content__icons-content__icon-block__icon--airport"></div>
+                    <p class="about-content__icons-content__icon-block__text">AIRPORT PICKUP</p>
+                </div>
+                <div class="about-content__icons-content__icon-block">
+                    <div class="about-content__icons-content__icon-block__icon about-content__icons-content__icon-block__icon--city"></div>
+                    <p class="about-content__icons-content__icon-block__text">CITY GUIDE</p>
+                </div>
+                <div class="about-content__icons-content__icon-block">
+                    <div class="about-content__icons-content__icon-block__icon about-content__icons-content__icon-block__icon--room"></div>
+                    <p class="about-content__icons-content__icon-block__text">LUXURY ROOM</p>
+                </div>
+
+            </section>
         </div>
     
     </body>
