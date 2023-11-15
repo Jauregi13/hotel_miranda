@@ -563,8 +563,6 @@
 .about-content__video-content {
   text-align: center;
   padding-top: 3em;
-  width: 90%;
-  margin: 0 auto;
 }
 .about-content__video-content__video {
   width: 100%;
@@ -575,6 +573,68 @@
   width: 100%;
   font-size: 2.5rem;
   line-height: 3.5rem;
+}
+
+.about-content__icons-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+.about-content__icons-content__icon-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  height: 10em;
+}
+.about-content__icons-content__icon-block__icon {
+  margin: 0 auto;
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5em;
+}
+.about-content__icons-content__icon-block__icon--breakfast {
+  background-image: url("./../../img/breakfastIcon.png");
+}
+.about-content__icons-content__icon-block__icon--airport {
+  background-image: url("./../../img/airportIcon-yellow.png");
+}
+.about-content__icons-content__icon-block__icon--city {
+  background-image: url("./../../img/cityIcon.svg");
+}
+.about-content__icons-content__icon-block__icon--room {
+  background-image: url("./../../img/roomIcon.svg");
+}
+.about-content__icons-content__icon-block__text {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.15rem;
+}
+.about-content__icons-content__icon-block:hover {
+  background-color: #BEAD8E;
+}
+.about-content__icons-content__icon-block:hover .about-content__icons-content__icon-block__icon--breakfast {
+  background-image: url("./../../img/breakfastIcon-white.png");
+}
+.about-content__icons-content__icon-block:hover .about-content__icons-content__icon-block__icon--airport {
+  background-image: url("./../../img/airportIcon.svg");
+}
+.about-content__icons-content__icon-block:hover .about-content__icons-content__icon-block__icon--city {
+  background-image: url("./../../img/cityIcon-white.svg");
+}
+.about-content__icons-content__icon-block:hover .about-content__icons-content__icon-block__icon--room {
+  background-image: url("./../../img/roomIcon-white.svg");
+}
+.about-content__icons-content__icon-block:hover .about-content__icons-content__icon-block__text {
+  color: #FFFFFF;
+}
+
+.about-content {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .page-title {
