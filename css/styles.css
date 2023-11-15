@@ -563,6 +563,7 @@
 .about-content__video-content {
   text-align: center;
   padding-top: 3em;
+  margin-bottom: 2em;
 }
 .about-content__video-content__video {
   width: 100%;
@@ -579,6 +580,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
+  margin-bottom: 4em;
 }
 .about-content__icons-content__icon-block {
   display: flex;
@@ -630,6 +632,36 @@
 }
 .about-content__icons-content__icon-block:hover .about-content__icons-content__icon-block__text {
   color: #FFFFFF;
+}
+
+.about-content__restaurant {
+  box-shadow: 0 14px 24px rgba(184, 184, 184, 0.1);
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.about-content__restaurant__img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 2em;
+}
+.about-content__restaurant__title {
+  margin-bottom: 2em;
+}
+.about-content__restaurant__subtitle {
+  font-size: 3rem;
+  line-height: 3.125rem;
+  margin-bottom: 0.7em;
+}
+.about-content__restaurant__text {
+  width: 85%;
+  color: #777777;
+  margin-bottom: 1em;
+}
+.about-content__restaurant__button {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .about-content {
