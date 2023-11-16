@@ -185,6 +185,180 @@
   margin-left: 1em;
 }
 
+.page-title {
+  margin-top: 3.5em;
+  background-color: #333333;
+  color: #FFFFFF;
+  padding-left: 1em;
+}
+.page-title__text {
+  font-size: 0.7rem;
+  letter-spacing: 0.175rem;
+  width: 17em;
+  padding-top: 3em;
+  font-weight: 700;
+  margin-bottom: 3em;
+}
+.page-title__title {
+  margin-bottom: 1em;
+}
+.page-title__breadcrumb-content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.page-title__breadcrumb-content__text {
+  background-color: #FFFFFF;
+  color: #222222;
+  padding: 1em;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.page-title__breadcrumb-content__text span {
+  display: inline;
+  margin-left: 1em;
+}
+.page-title__breadcrumb-content__text__page-name {
+  color: #BEAD8E;
+}
+
+.button {
+  background-color: #BDAC8D;
+  color: #FFFFFF;
+  border: none;
+  height: 3em;
+  font-weight: 700;
+  font-family: "Archivo";
+  font-size: 0.875rem;
+  line-height: 1rem;
+  letter-spacing: 0.175rem;
+  padding: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button--dark {
+  color: #FFFFFF;
+  background-color: #333333;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+.button--calendar {
+  padding-bottom: 3em;
+}
+
+.title-page {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  color: #FFFFFF;
+}
+
+.title-section {
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.13rem;
+  letter-spacing: 0.18rem;
+  color: #777777;
+}
+.title-section--yellow {
+  color: #BDAC8D;
+}
+.title-section--white {
+  color: #FFFFFF;
+}
+
+.subtitle-section {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  color: #111111;
+}
+.subtitle-section--white {
+  color: #FFFFFF;
+}
+.subtitle-section--medium {
+  font-size: 3rem;
+  line-height: 3.125rem;
+}
+.subtitle-section--small {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.title-content {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.056rem;
+  color: #111111;
+}
+.title-content--white {
+  color: #FFFFFF;
+}
+.title-content--big {
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+.paragraph--title-banner {
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 0.7rem;
+  letter-spacing: 0.175rem;
+}
+.paragraph--price {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.625rem;
+  color: #BEAD8E;
+}
+.paragraph--price--small {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.paragraph--about-counter {
+  font-family: "Roboto";
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.paragraph--gray {
+  color: #777777;
+}
+.paragraph--gray2 {
+  color: #C2C2C2;
+}
+.paragraph--gray3 {
+  color: #999999;
+}
+.paragraph--black {
+  color: #111111;
+}
+.paragraph--black2 {
+  color: #222222;
+}
+.paragraph--bold {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.13rem;
+}
+.paragraph--white {
+  color: #FFFFFF;
+}
+
 .home-content__banner-home {
   width: 100%;
   background-color: #333333;
@@ -447,12 +621,6 @@
   margin: auto;
   margin-bottom: 1em;
 }
-.home-content__rooms__room-info__price {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 2.625rem;
-  color: #BEAD8E;
-}
 .home-content__rooms__room-info__price span {
   font-size: 0.813rem;
 }
@@ -544,7 +712,8 @@
 
 .about-content__video-content {
   text-align: center;
-  padding: 1em;
+  width: 90%;
+  margin: 0 auto;
   padding-top: 3em;
   margin-bottom: 2em;
 }
@@ -556,7 +725,8 @@
 
 .about-content__icons-content {
   display: grid;
-  padding: 1em;
+  width: 90%;
+  margin: 0 auto;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
   margin-bottom: 4em;
@@ -615,9 +785,11 @@
 }
 
 .about-content__restaurant {
+  width: 90%;
+  margin: 0 auto;
   box-shadow: 0 14px 24px rgba(184, 184, 184, 0.1);
   margin-bottom: 3em;
-  padding: 2em;
+  padding: 1em;
 }
 .about-content__restaurant__img {
   width: 100%;
@@ -660,7 +832,8 @@
 }
 
 .about-content__counters {
-  padding: 1em;
+  width: 90%;
+  margin: 0 auto;
 }
 .about-content__counters__title {
   margin-bottom: 2em;
@@ -697,168 +870,57 @@
   margin: 0 auto;
 }
 
-.page-title {
-  margin-top: 3.5em;
-  background-color: #333333;
-  color: #FFFFFF;
-  padding-left: 1em;
-}
-.page-title__text {
-  font-size: 0.7rem;
-  letter-spacing: 0.175rem;
-  width: 17em;
-  padding-top: 3em;
-  font-weight: 700;
-  margin-bottom: 3em;
-}
-.page-title__title {
-  margin-bottom: 1em;
-}
-.page-title__breadcrumb-content {
+.rooms-content__room {
   width: 90%;
   margin: 0 auto;
-  display: flex;
-  justify-content: flex-end;
+  text-align: center;
+  margin-bottom: 3em;
 }
-.page-title__breadcrumb-content__text {
+.rooms-content__room__image {
+  width: 380px;
+  height: 250px;
+}
+.rooms-content__room__icons {
   background-color: #FFFFFF;
-  color: #222222;
-  padding: 1em;
-  font-weight: 700;
+  box-shadow: 0 8px 16px rgba(138, 138, 138, 0.05);
+  width: 19.5em;
+  margin: 0 auto;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  padding-left: 2em;
+  position: relative;
+  bottom: 2.2em;
+  z-index: 2;
+}
+.rooms-content__room__icons i {
+  margin-right: 1.2em;
+}
+.rooms-content__room__title {
+  margin-bottom: 0.5em;
+}
+.rooms-content__room__text {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+.rooms-content__room__price {
+  display: inline-block;
+  margin-right: 2em;
+}
+.rooms-content__room__book {
+  display: inline-block;
+  text-decoration: none;
+  color: #BDBDBD;
   font-size: 1rem;
+  font-weight: 700;
   line-height: 1rem;
 }
-.page-title__breadcrumb-content__text span {
-  display: inline;
-  margin-left: 1em;
-}
-.page-title__breadcrumb-content__text__page-name {
-  color: #BEAD8E;
-}
-
-.button {
-  background-color: #BDAC8D;
-  color: #FFFFFF;
-  border: none;
-  height: 3em;
-  font-weight: 700;
-  font-family: "Archivo";
-  font-size: 0.875rem;
-  line-height: 1rem;
-  letter-spacing: 0.175rem;
-  padding: 2em;
-  padding-left: 3em;
-  padding-right: 3em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.button--dark {
-  color: #FFFFFF;
-  background-color: #333333;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-}
-.button--calendar {
-  padding-bottom: 3em;
-}
-
-.title-page {
-  font-family: "Old Standard TT";
-  font-weight: 400;
-  font-size: 4rem;
-  line-height: 3.75rem;
-  letter-spacing: -0.075rem;
-  color: #FFFFFF;
-}
-
-.title-section {
-  font-weight: 700;
-  font-size: 0.8rem;
-  line-height: 1.13rem;
-  letter-spacing: 0.18rem;
-  color: #777777;
-}
-.title-section--yellow {
-  color: #BDAC8D;
-}
-.title-section--white {
-  color: #FFFFFF;
-}
-
-.subtitle-section {
-  font-family: "Old Standard TT";
-  font-weight: 400;
-  font-size: 3.5rem;
-  line-height: 3.75rem;
-  letter-spacing: -0.075rem;
-  color: #111111;
-}
-.subtitle-section--white {
-  color: #FFFFFF;
-}
-.subtitle-section--medium {
-  font-size: 3rem;
-  line-height: 3.125rem;
-}
-.subtitle-section--small {
-  font-size: 2.5rem;
-  line-height: 3.5rem;
-}
-
-.title-content {
-  font-family: "Old Standard TT";
-  font-weight: 400;
-  font-size: 1.875rem;
-  line-height: 1.875rem;
-  letter-spacing: -0.056rem;
-  color: #111111;
-}
-.title-content--white {
-  color: #FFFFFF;
-}
-.title-content--big {
-  font-size: 3.75rem;
-  line-height: 3.75rem;
-}
-
-.paragraph {
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-}
-.paragraph--title-banner {
-  font-weight: 700;
-  color: #FFFFFF;
-  font-size: 0.7rem;
-  letter-spacing: 0.175rem;
-}
-.paragraph--about-counter {
-  font-family: "Roboto";
-  font-size: 1rem;
-  line-height: 1rem;
-}
-.paragraph--gray {
-  color: #777777;
-}
-.paragraph--gray2 {
-  color: #C2C2C2;
-}
-.paragraph--gray3 {
-  color: #999999;
-}
-.paragraph--black {
-  color: #111111;
-}
-.paragraph--black2 {
+.rooms-content__room__book:hover {
   color: #222222;
 }
-.paragraph--bold {
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.13rem;
-}
-.paragraph--white {
-  color: #FFFFFF;
+
+.rooms-content {
+  padding-top: 2em;
 }
 
 /*@mixin paragraph2 {

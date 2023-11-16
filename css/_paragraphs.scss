@@ -13,6 +13,18 @@
         letter-spacing: 0.175rem;
     }
 
+    &--price {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.625rem;
+        color: #BEAD8E;
+
+        &--small {
+            font-size: 1rem;
+            line-height: 1rem;
+        }
+    }
+
     &--about-counter {
         font-family: 'Roboto';
         font-size: 1rem;

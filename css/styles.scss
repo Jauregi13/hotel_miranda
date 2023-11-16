@@ -1,12 +1,13 @@
 @use 'variables';
 @use 'header';
 @use 'footer';
-@use 'home/home';
-@use 'aboutUs/aboutUs';
 @use 'breadcrumb';
 @use 'buttons';
 @use 'headings';
 @use 'paragraphs';
+@use 'home/home';
+@use 'aboutUs/aboutUs';
+@use 'rooms/rooms';
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto');
 
 

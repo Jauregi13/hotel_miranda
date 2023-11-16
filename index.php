@@ -123,7 +123,7 @@
                 <div class="home-content__rooms__room-info">
                     <h4 class="home-content__rooms__room-info__title title-content">Minimal Duplex Room</h4>
                     <p class="home-content__rooms__room-info__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <p class="home-content__rooms__room-info__price">$345<span>/Night</span></p>
+                    <p class="home-content__rooms__room-info__price paragraph paragraph--price">$345<span>/Night</span></p>
                 </div>
             </section>
 
