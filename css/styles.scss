@@ -6,6 +6,7 @@
 @use 'breadcrumb';
 @use 'buttons';
 @use 'headings';
+@use 'paragraphs';
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto');
 
 
@@ -31,47 +32,6 @@ html, * {
 
 body { 
     min-width: 320px 
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 0.8rem;
-    line-height: 1.13rem;
-    letter-spacing: 0.18rem;
-    color: #777777;
-}
-
-h3 {
-    font-family: $font_secondary;
-    font-weight: 400;
-    font-size: 3.5rem;
-    line-height: 3.75rem;
-    letter-spacing: -0.075rem;
-    color: #111111;
-}
-
-h4 {
-    font-family: $font_secondary;
-    font-weight: 400;
-    font-size: 1.875rem;
-    line-height: 1.875rem;
-    letter-spacing: -0.056rem;
-    color: #111111;
-}
-
-p {
-    font-weight: 400;
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-}
-
-@mixin text-banner {
-    font-size: 0.7rem;
-    letter-spacing: 0.175rem;
-    width: 17em;
-    padding-top: 3em;
-    font-weight: 700;
-    margin-bottom: 3em;
 }
 
 

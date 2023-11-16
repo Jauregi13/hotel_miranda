@@ -5,6 +5,7 @@
     background-color: #222222;
     padding-top: 2em;
     padding-left: 1em;
+    padding-bottom: 1em;
     margin-bottom: 3em;
 
     &__title {
@@ -13,22 +14,19 @@
 
     &__subtitle {
         width: 80%;
-        color: #FFFFFF;
         margin-bottom: 0.5em;
     }
 
-    & p {
+    &__text{
         margin-bottom: 2em;
         width: 95%;
-        color: #C2C2C2;
     }
 
     & iframe {
         margin-bottom: 2em;
     }
 
-    & button {
-        width: 40%;
+    &__button {
         margin-bottom: 3em;
     }
 }

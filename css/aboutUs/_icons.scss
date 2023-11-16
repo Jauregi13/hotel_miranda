@@ -2,6 +2,7 @@
 .about-content__icons-content {
 
     display: grid;
+    padding: 1em;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     margin-bottom: 4em;
@@ -40,6 +41,7 @@
         }
 
         &__text {
+            color: #222222;
             font-weight: 700;
             font-size: 0.75rem;
             line-height: 0.875rem;

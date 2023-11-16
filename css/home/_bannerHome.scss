@@ -12,12 +12,8 @@
         
         &__text {
 
-            //@include text-banner;
-            font-size: 0.7rem;
-            letter-spacing: 0.175rem;
             width: 17em;
             padding-top: 3em;
-            font-weight: 700;
             margin-bottom: 3em;
         }
 
@@ -33,11 +29,8 @@
             padding-bottom: 4em;
             
             &__tour {
-                color: #FFFFFF;
-                background-color: #BEAD8E;
+                
                 margin-bottom: 1em;
-                border: none;
-                height: 3em;
             }
 
             &__learn {

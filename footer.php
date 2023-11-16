@@ -9,7 +9,7 @@
             <p class="footer__content__logo__title"><b>HOTEL</b> MIRANDA</p>
         </div>
 
-        <p class="footer__content__introduction">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. 
+        <p class="footer__content__introduction paragraph paragraph--gray">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
 
         <div class="footer__content__social-media">
@@ -74,8 +74,8 @@
     </div>
 
     <div class="footer__copyright">
-        <p class="footer__copyright__title">Copyright By@Example - 2020</p>
-        <p class="footer__copyright__terms">Terms of use<span>|</span>Privacy Environmental Policy</p>
+        <p class="footer__copyright__title paragraph paragraph--black2 paragraph--bold">Copyright By@Example - 2020</p>
+        <p class="footer__copyright__terms paragraph paragraph--black2 paragraph--bold">Terms of use<span>|</span>Privacy Environmental Policy</p>
     </div>
     
 </footer>

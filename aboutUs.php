@@ -49,9 +49,9 @@
             <section class="about-content__restaurant">
 
                 <img class="about-content__restaurant__img" src="./img/restaurant.jpg" alt="restaurant">
-                <h2 class="about-content__restaurant__title">RESTAURANT</h2>
-                <h3 class="about-content__restaurant__subtitle">Get Restaurant Facilities & Many Other More</h3>
-                <p class="about-content__restaurant__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. 
+                <h2 class="about-content__restaurant__title title-section">RESTAURANT</h2>
+                <h3 class="about-content__restaurant__subtitle subtitle-section subtitle-section--medium">Get Restaurant Facilities & Many Other More</h3>
+                <p class="about-content__restaurant__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                 <button class="about-content__restaurant__button button">TAKE A TOUR</button>
             </section>
@@ -72,7 +72,7 @@
                                 <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">01</span>
                             </div>
                             <h4 class="swiper-slide__title title-content title-content--white">Have High Rating</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide__icons">
@@ -82,7 +82,7 @@
                                 <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">02</span>
                             </div>
                             <h4 class="swiper-slide__title title-content title-content--white">Quiet Hours</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide__icons">
@@ -92,7 +92,7 @@
                                 <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">03</span>
                             </div>
                             <h4 class="swiper-slide__title title-content title-content--white">Best Locations</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide__icons">
@@ -102,7 +102,7 @@
                                 <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">04</span>
                             </div>
                             <h4 class="swiper-slide__title title-content title-content--white">Free Cancellation</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide__icons">
@@ -112,7 +112,7 @@
                                 <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">05</span>
                             </div>
                             <h4 class="swiper-slide__title title-content title-content--white">Payment Options</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide__icons">
@@ -122,7 +122,7 @@
                                 <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">06</span>
                             </div>
                             <h4 class="swiper-slide__title title-content title-content--white">Special Offers</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         
                     </div>
@@ -139,7 +139,7 @@
                         <img src="./img/userIcon.svg" alt="userIcon">
                         <div class="about-content__counters__content__counter__info">
                             <h4 class="title-content title-content--big">8000</h4>
-                            <p>Happy Users</p>
+                            <p class="paragraph paragraph--gray paragraph--about-counter">Happy Users</p>
                         </div>
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </div>
@@ -147,7 +147,7 @@
                         <img src="./img/reviewIcon.svg" alt="reviewIcon">
                         <div class="about-content__counters__content__counter__info">
                             <h4 class="title-content title-content--big">10M</h4>
-                            <p>Reviews & Appriciate</p>
+                            <p class="paragraph paragraph--gray paragraph--about-counter">Reviews & Appriciate</p>
                         </div>
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </div>
@@ -155,7 +155,7 @@
                         <img src="./img/countriesIcon.svg" alt="countriesIcon">
                         <div class="about-content__counters__content__counter__info">
                             <h4 class="title-content title-content--big">100</h4>
-                            <p>Country Coverage</p>
+                            <p class="paragraph paragraph--gray paragraph--about-counter">Country Coverage</p>
                         </div>
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </div>

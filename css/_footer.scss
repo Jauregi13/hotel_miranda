@@ -36,7 +36,6 @@
 
         &__introduction {
             width: 90%;
-            color: #777777;
             margin-bottom: 2em;
         }
 
@@ -134,20 +133,14 @@
         padding-top: 1em;
         background-color: #F8F8F8;
         padding-bottom: 1em;
-        & p {
-            color: #222222;
-            font-family: 'Roboto';
-            font-weight: 700;
-            font-size: 1rem;
-            line-height: 1.13rem;
-        }
 
         &__title {
+            font-family: 'Roboto';
             margin-bottom: 2em;
         }
 
         &__terms {
-            
+            font-family: 'Roboto';
             & span {
                 display: inline;
                 margin-right: 1em;

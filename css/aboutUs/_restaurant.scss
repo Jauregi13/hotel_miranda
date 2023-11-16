@@ -2,8 +2,8 @@
 .about-content__restaurant {
 
     box-shadow: 0 14px 24px rgba($color: #B8B8B8, $alpha: 0.1);
-    padding: 1em;
     margin-bottom: 3em;
+    padding: 2em;
 
     &__img {
         width: 100%;
@@ -16,14 +16,11 @@
     }
 
     &__subtitle {
-        font-size: 3rem;
-        line-height: 3.125rem;
         margin-bottom: 0.7em;
     }
 
     &__text {
         width: 85%;
-        color: #777777;
         margin-bottom: 1em;
     }
 }

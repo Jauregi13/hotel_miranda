@@ -21,13 +21,13 @@
 
                 <div class="home-content__banner-home__content">
 
-                    <p class="home-content__banner-home__content__text">THE ULTIMATE LUXURY EXPERIENCE</p>
+                    <p class="home-content__banner-home__content__text paragraph paragraph--title-banner">THE ULTIMATE LUXURY EXPERIENCE</p>
                     <h1 class="home-content__banner-home__content__title title-page">The Perfect Base For You</h1>
 
                     <div class="home-content__banner-home__content__buttons">
 
-                        <button class="home-content__banner-home__content__buttons__tour">TAKE A TOUR</button>
-                        <button class="home-content__banner-home__content__buttons__learn">LEARN MORE</button>
+                        <button class="home-content__banner-home__content__buttons__tour button">TAKE A TOUR</button>
+                        <button class="home-content__banner-home__content__buttons__learn button button--dark">LEARN MORE</button>
 
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                     <label for="departure">LeDeparture Date</label>
                     <input type="date" name="departure">
 
-                    <input type="submit" value="CHECK AVAILABILITY" name="check"/>
+                    <input type="submit" value="CHECK AVAILABILITY" class="button button--calendar" name="check"/>
 
 
                 </form>
@@ -53,7 +53,7 @@
                 <div class="home-content__about-us__info">
                     <h2 class="home-content__about-us__info__title title-section">ABOUT US</h2>
                     <h3 class="home-content__about-us__info__subtitle subtitle-section">Discover Our Underground.</h3>
-                    <p class="home-content__about-us__info__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <p class="home-content__about-us__info__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <button class="home-content__about-us__info__button button">BOOK NOW</button>
                 </div>
@@ -67,7 +67,7 @@
                             <img src="./img/teamIcon2.svg" alt="teamIcon2" class="home-content__about-us__extra-info__team__icons__icon2"/>
                         </div>
                         <h4 class="home-content__about-us__extra-info__team__title title-content">Strong Team</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        <p class="home-content__about-us__extra-info__team__text paragraph paragraph--black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                     </div>
 
                     <div class="home-content__about-us__extra-info__luxury">
@@ -76,7 +76,7 @@
                         <div class="home-content__about-us__extra-info__luxury__room">
                             <img src="./img/luxuryRoomIcon.svg" alt="luxury Room">
                             <h4 class="home-content__about-us__extra-info__luxury__room__title title-content title-content--white">Luxury Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            <p class="home-content__about-us__extra-info__luxury__room__text paragraph paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
 
@@ -122,7 +122,7 @@
 
                 <div class="home-content__rooms__room-info">
                     <h4 class="home-content__rooms__room-info__title title-content">Minimal Duplex Room</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <p class="home-content__rooms__room-info__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                     <p class="home-content__rooms__room-info__price">$345<span>/Night</span></p>
                 </div>
             </section>
@@ -131,10 +131,10 @@
 
                 <h2 class="home-content__video__title title-section title-section--yellow">INTRO VIDEO</h2>
                 <h3 class="home-content__video__subtitle subtitle-section subtitle-section--white">Meet With Our Luxury Place.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                <p class="home-content__video__text paragraph paragraph--gray2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
                 <iframe src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25" width="95%" height="280px" frameborder="0"></iframe>
-                <button>BOOK NOW</button>
+                <button class="home-content__video__button button">BOOK NOW</button>
             </section>
 
             <section class="home-content__facilities">
@@ -153,7 +153,7 @@
                                 <span class="swiper-slide__icons__number">01</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Have High Rating</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide__icons">
@@ -163,7 +163,7 @@
                                 <span class="swiper-slide__icons__number">02</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Quiet Hours</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide__icons">
@@ -173,7 +173,7 @@
                                 <span class="swiper-slide__icons__number">03</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Best Locations</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide__icons">
@@ -183,7 +183,7 @@
                                 <span class="swiper-slide__icons__number">04</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Free Cancellation</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide__icons">
@@ -193,7 +193,7 @@
                                 <span class="swiper-slide__icons__number">05</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Payment Options</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-slide__icons">
@@ -203,7 +203,7 @@
                                 <span class="swiper-slide__icons__number">06</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Special Offers</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                            <p class="swiper-slide__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         
                     </div>
@@ -217,25 +217,25 @@
                 <div class="home-content__data__projects">
                     <img src="./img/projectIcon.svg" alt="projectIcon">
                     <h3 class="home-content__data__projects__number">84k<span>+</span></h3>
-                    <p>Projects are Completed</p>
+                    <p class="home-content__data__projects__text paragraph paragraph--gray3">Projects are Completed</p>
                 </div>
 
                 <div class="home-content__data__backers">
                     <img src="./img/backersIcon.svg" alt="backersIcon">
                     <h3 class="home-content__data__projects__number">10M<span>+</span></h3>
-                    <p>Active Backers Around World</p>
+                    <p class="home-content__data__projects__text paragraph paragraph--gray3">Active Backers Around World</p>
                 </div>
 
                 <div class="home-content__data__categories">
                     <img src="./img/categoriesIcon.svg" alt="categoriesIcon">
                     <h3 class="home-content__data__projects__number">02K<span>+</span></h3>
-                    <p>Categories Served</p>
+                    <p class="home-content__data__projects__text paragraph paragraph--gray3">Categories Served</p>
                 </div>
 
                 <div class="home-content__data__ideas">
                     <img src="./img/ideasIcon.svg" alt="ideasIcon">
                     <h3 class="home-content__data__projects__number">100M<span>+</span></h3>
-                    <p>Idea Raised Funds</p>
+                    <p class="home-content__data__projects__text paragraph paragraph--gray3">Idea Raised Funds</p>
                 </div>
 
 

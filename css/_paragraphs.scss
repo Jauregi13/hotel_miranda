@@ -1,5 +1,51 @@
 
 
-.text1 {
-    
+
+.paragraph {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+
+    &--title-banner {
+        font-weight: 700;
+        color: #FFFFFF;
+        font-size: 0.7rem;
+        letter-spacing: 0.175rem;
+    }
+
+    &--about-counter {
+        font-family: 'Roboto';
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    &--gray {
+        color: #777777;
+    }
+
+    &--gray2 {
+        color:  #C2C2C2;
+    }
+
+    &--gray3 {
+        color: #999999;
+    }
+
+    &--black {
+        color: #111111;
+    }
+
+    &--black2 {
+        color: #222222;
+    }
+
+    &--bold {
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.13rem;
+    }
+
+    &--white {
+        color: #FFFFFF;
+    }
 }
