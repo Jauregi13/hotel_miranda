@@ -285,20 +285,17 @@
   padding-left: 1em;
   padding-bottom: 10em;
 }
-.home-content__about-us__info h2 {
+.home-content__about-us__info__title {
   padding-top: 2em;
   margin-bottom: 2em;
 }
-.home-content__about-us__info h3 {
+.home-content__about-us__info__subtitle {
   text-align: center;
   margin-bottom: 0.5em;
 }
-.home-content__about-us__info p {
+.home-content__about-us__info__text {
   color: #777777;
   margin-bottom: 2em;
-}
-.home-content__about-us__info button {
-  width: 40%;
 }
 .home-content__about-us__extra-info {
   width: 80%;
@@ -330,8 +327,7 @@
   left: 2em;
   z-index: -1;
 }
-.home-content__about-us__extra-info__team h4 {
-  color: #111111;
+.home-content__about-us__extra-info__team__title {
   margin-bottom: 1em;
 }
 .home-content__about-us__extra-info__team p {
@@ -353,7 +349,6 @@
   margin-bottom: 2em;
 }
 .home-content__about-us__extra-info__luxury__room__title {
-  color: #FFFFFF;
   margin-bottom: 1em;
 }
 .home-content__about-us__extra-info__luxury__room p {
@@ -365,10 +360,10 @@
 .home-content__facilities {
   text-align: center;
 }
-.home-content__facilities h2 {
+.home-content__facilities__title {
   margin-bottom: 2em;
 }
-.home-content__facilities h3 {
+.home-content__facilities__subtitle {
   margin-bottom: 0.5em;
 }
 
@@ -405,7 +400,7 @@
   color: #222222;
   opacity: 0.04;
 }
-.swiper-slide h4 {
+.swiper-slide__title {
   margin-bottom: 1em;
 }
 .swiper-slide p {
@@ -424,10 +419,10 @@
 .home-content__rooms {
   text-align: center;
 }
-.home-content__rooms h2 {
+.home-content__rooms__title {
   margin-bottom: 2em;
 }
-.home-content__rooms h3 {
+.home-content__rooms__subtitle {
   margin-bottom: 1em;
 }
 .home-content__rooms__icons {
@@ -454,7 +449,7 @@
   bottom: 2em;
   z-index: 2;
 }
-.home-content__rooms__room-info h4 {
+.home-content__rooms__room-info__title {
   margin-bottom: 0.5em;
 }
 .home-content__rooms__room-info p {
@@ -513,11 +508,10 @@
   padding-left: 1em;
   margin-bottom: 3em;
 }
-.home-content__video h2 {
-  color: #BDAC8D;
+.home-content__video__title {
   margin-bottom: 2em;
 }
-.home-content__video h3 {
+.home-content__video__subtitle {
   width: 80%;
   color: #FFFFFF;
   margin-bottom: 0.5em;
@@ -546,13 +540,13 @@
 .home-content__data__projects img, .home-content__data__backers img, .home-content__data__categories img, .home-content__data__ideas img {
   margin-bottom: 3em;
 }
-.home-content__data__projects h3, .home-content__data__backers h3, .home-content__data__categories h3, .home-content__data__ideas h3 {
+.home-content__data__projects__number, .home-content__data__backers__number, .home-content__data__categories__number, .home-content__data__ideas__number {
   font-family: "Roboto";
   color: #FFFFFF;
   font-size: 3.75rem;
   line-height: 1.56rem;
 }
-.home-content__data__projects h3 span, .home-content__data__backers h3 span, .home-content__data__categories h3 span, .home-content__data__ideas h3 span {
+.home-content__data__projects__number span, .home-content__data__backers__number span, .home-content__data__categories__number span, .home-content__data__ideas__number span {
   font-size: 1.125rem;
 }
 .home-content__data__projects p, .home-content__data__backers p, .home-content__data__categories p, .home-content__data__ideas p {
@@ -569,11 +563,6 @@
   width: 100%;
   height: 15em;
   margin-bottom: 2em;
-}
-.about-content__video-content__text {
-  width: 100%;
-  font-size: 2.5rem;
-  line-height: 3.5rem;
 }
 
 .about-content__icons-content {
@@ -657,12 +646,6 @@
   color: #777777;
   margin-bottom: 1em;
 }
-.about-content__restaurant__button {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
-}
 
 .about-content {
   width: 90%;
@@ -708,6 +691,72 @@
   color: #BEAD8E;
 }
 
+.button {
+  background-color: #BDAC8D;
+  color: #FFFFFF;
+  border: none;
+  height: 3em;
+  font-weight: 700;
+  font-family: "Archivo";
+  font-size: 0.875rem;
+  line-height: 1rem;
+  letter-spacing: 0.175rem;
+  padding: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-page {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  color: #FFFFFF;
+}
+
+.title-section {
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.13rem;
+  letter-spacing: 0.18rem;
+  color: #777777;
+}
+.title-section--yellow {
+  color: #BDAC8D;
+}
+
+.subtitle-section {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  color: #111111;
+}
+.subtitle-section--white {
+  color: #FFFFFF;
+}
+.subtitle-section--small {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.title-content {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.056rem;
+  color: #111111;
+}
+.title-content--white {
+  color: #FFFFFF;
+}
+
 /*@mixin paragraph2 {
     font-family: $font_tertiary;
 }*/
@@ -720,15 +769,6 @@ html, * {
 
 body {
   min-width: 320px;
-}
-
-h1 {
-  font-family: "Old Standard TT";
-  font-weight: 400;
-  font-size: 4rem;
-  line-height: 3.75rem;
-  letter-spacing: -0.075rem;
-  color: #FFFFFF;
 }
 
 h2 {
@@ -761,13 +801,6 @@ p {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.5rem;
-}
-
-button {
-  background-color: #BDAC8D;
-  color: #FFFFFF;
-  border: none;
-  height: 3em;
 }
 
 /*# sourceMappingURL=styles.css.map */

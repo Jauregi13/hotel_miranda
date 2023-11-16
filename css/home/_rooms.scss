@@ -4,11 +4,11 @@
 
     text-align: center;
 
-    & h2 {
+    &__title {
         margin-bottom: 2em;
     }
 
-    & h3 {
+    &__subtitle {
         margin-bottom: 1em;
     }
 
@@ -38,7 +38,7 @@
         bottom: 2em;
         z-index: 2;
 
-        & h4 {
+        &__title {
             margin-bottom: 0.5em;
         }
         

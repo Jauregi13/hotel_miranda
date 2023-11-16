@@ -1,8 +1,11 @@
+@use 'variables';
 @use 'header';
 @use 'footer';
 @use 'home/home';
 @use 'aboutUs/aboutUs';
 @use 'breadcrumb';
+@use 'buttons';
+@use 'headings';
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Old+Standard+TT&family=Roboto');
 
 
@@ -28,15 +31,6 @@ html, * {
 
 body { 
     min-width: 320px 
-}
-
-h1 {
-    font-family: $font_secondary;
-    font-weight: 400;
-    font-size: 4rem;
-    line-height: 3.75rem;
-    letter-spacing: -0.075rem;
-    color: #FFFFFF;    
 }
 
 h2 {
@@ -69,13 +63,6 @@ p {
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.5rem;
-}
-
-button {
-    background-color: #BDAC8D;
-    color: #FFFFFF;
-    border: none;
-    height: 3em;
 }
 
 @mixin text-banner {
