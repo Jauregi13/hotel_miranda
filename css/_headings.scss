@@ -20,6 +20,10 @@
     &--yellow {
         color: variables.$secondary-color;
     }
+
+    &--white {
+        color: #FFFFFF;
+    }
 }
 
 .subtitle-section {
@@ -50,5 +54,10 @@
 
     &--white {
         color: #FFFFFF;
+    }
+
+    &--big {
+        font-size: 3.75rem;
+        line-height: 3.75rem;
     }
 }

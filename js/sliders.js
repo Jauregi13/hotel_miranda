@@ -12,7 +12,7 @@ const sliderNavigation = new Swiper('.slider-type1', {
 
 const sliderPagination = new Swiper('.slider-type2', {
   
-  autoplay: true,
+  autoplay: false,
   loop:true,
   direction: 'horizontal',
   pagination: {

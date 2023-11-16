@@ -150,7 +150,7 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature1.svg" alt="iconFeature1">
                                 </div>
-                                <span>01</span>
+                                <span class="swiper-slide__icons__number">01</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Have High Rating</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
@@ -160,7 +160,7 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature2.svg" alt="iconFeature2">
                                 </div>
-                                <span>02</span>
+                                <span class="swiper-slide__icons__number">02</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Quiet Hours</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
@@ -170,7 +170,7 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature3.svg" alt="iconFeature3">
                                 </div>
-                                <span>03</span>
+                                <span class="swiper-slide__icons__number">03</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Best Locations</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
@@ -180,7 +180,7 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature4.svg" alt="iconFeature4">
                                 </div>
-                                <span>04</span>
+                                <span class="swiper-slide__icons__number">04</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Free Cancellation</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
@@ -190,7 +190,7 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature5.svg" alt="iconFeature5">
                                 </div>
-                                <span>05</span>
+                                <span class="swiper-slide__icons__number">05</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Payment Options</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
@@ -200,7 +200,7 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature6.svg" alt="iconFeature6">
                                 </div>
-                                <span>06</span>
+                                <span class="swiper-slide__icons__number">06</span>
                             </div>
                             <h4 class="swiper-slide__title title-content">Special Offers</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
