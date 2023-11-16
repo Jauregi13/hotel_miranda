@@ -1,0 +1,41 @@
+
+
+.about-content__counters {
+
+    padding-bottom: 2em;
+
+    &__title {
+        margin-bottom: 2em;
+    }
+
+    &__subtitle {
+        margin-bottom: 1em;
+    }
+
+    &__content {
+        
+        padding-left: 1em;
+
+        &__counter {
+            margin-bottom: 3em;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            height: 6em;
+            &__info {
+                display: flex;
+                flex-direction: column;
+                margin-left: 1em;
+                width: 60%;
+            }
+
+            & i {
+                display: flex;
+                align-items: center;
+                height: inherit;
+                font-size: 2rem;
+                color: #DCDCDC;
+            }
+        }
+    }
+}

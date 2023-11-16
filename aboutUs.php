@@ -58,9 +58,9 @@
 
             <section class="about-content__facilities">
 
-                <h2 class="about-content__facilities__title title-section">FACILITIES</h2>
-                <h3 class="about-content__facilities__subtitle subtitle-section">Core Features</h3>
-                <div class="swiper slider-type2">
+                <h2 class="about-content__facilities__title title-section title-section--white">FACILITIES</h2>
+                <h3 class="about-content__facilities__subtitle subtitle-section subtitle-section--white">Core Features</h3>
+                <div class="swiper slider-type2 slider-type2--black">
 
                     <div class="swiper-wrapper swiper-wrapper--size-change">
 
@@ -69,9 +69,9 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature1.svg" alt="iconFeature1">
                                 </div>
-                                <span>01</span>
+                                <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">01</span>
                             </div>
-                            <h4 class="swiper-slide__title title-content">Have High Rating</h4>
+                            <h4 class="swiper-slide__title title-content title-content--white">Have High Rating</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
@@ -79,9 +79,9 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature2.svg" alt="iconFeature2">
                                 </div>
-                                <span>02</span>
+                                <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">02</span>
                             </div>
-                            <h4 class="swiper-slide__title title-content">Quiet Hours</h4>
+                            <h4 class="swiper-slide__title title-content title-content--white">Quiet Hours</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
@@ -89,9 +89,9 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature3.svg" alt="iconFeature3">
                                 </div>
-                                <span>03</span>
+                                <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">03</span>
                             </div>
-                            <h4 class="swiper-slide__title title-content">Best Locations</h4>
+                            <h4 class="swiper-slide__title title-content title-content--white">Best Locations</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
@@ -99,9 +99,9 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature4.svg" alt="iconFeature4">
                                 </div>
-                                <span>04</span>
+                                <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">04</span>
                             </div>
-                            <h4 class="swiper-slide__title title-content">Free Cancellation</h4>
+                            <h4 class="swiper-slide__title title-content title-content--white">Free Cancellation</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
@@ -109,9 +109,9 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature5.svg" alt="iconFeature5">
                                 </div>
-                                <span>05</span>
+                                <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">05</span>
                             </div>
-                            <h4 class="swiper-slide__title title-content">Payment Options</h4>
+                            <h4 class="swiper-slide__title title-content title-content--white">Payment Options</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         <div class="swiper-slide">
@@ -119,9 +119,9 @@
                                 <div class="swiper-slide__icons__icon">
                                     <img src="./img/iconFeature6.svg" alt="iconFeature6">
                                 </div>
-                                <span>06</span>
+                                <span class="swiper-slide__icons__number swiper-slide__icons__number--opacity">06</span>
                             </div>
-                            <h4 class="swiper-slide__title title-content">Special Offers</h4>
+                            <h4 class="swiper-slide__title title-content title-content--white">Special Offers</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
                         </div>
                         
@@ -130,7 +130,56 @@
                 </div>
 
             </section>
+
+            <section class="about-content__counters">
+                <h2 class="about-content__counters__title title-section">COUNTER</h2>
+                <h3 class="about-content__counters__subtitle subtitle-section">Some Fun Facts</h3>
+                <div class="about-content__counters__content">
+                    <div class="about-content__counters__content__counter">
+                        <img src="./img/userIcon.svg" alt="userIcon">
+                        <div class="about-content__counters__content__counter__info">
+                            <h4 class="title-content title-content--big">8000</h4>
+                            <p>Happy Users</p>
+                        </div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                    <div class="about-content__counters__content__counter">
+                        <img src="./img/reviewIcon.svg" alt="reviewIcon">
+                        <div class="about-content__counters__content__counter__info">
+                            <h4 class="title-content title-content--big">10M</h4>
+                            <p>Reviews & Appriciate</p>
+                        </div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                    <div class="about-content__counters__content__counter">
+                        <img src="./img/countriesIcon.svg" alt="countriesIcon">
+                        <div class="about-content__counters__content__counter__info">
+                            <h4 class="title-content title-content--big">100</h4>
+                            <p>Country Coverage</p>
+                        </div>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </div>
+                <div class="swiper slider-type2">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__img" src="./img/counter1.jpg" alt="counter1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__img" src="./img/counter2.jpg" alt="counter2">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                
+            </section>
         </div>
+
+        <?php
+
+            include 'footer.php'
+        ?>
     
     </body>
 

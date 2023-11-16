@@ -1,0 +1,42 @@
+
+
+
+.about-content__facilities {
+
+    text-align: center;
+    background-color: #222222;
+    padding-top: 2em;
+    margin-bottom: 3em;
+
+    &__title {
+        margin-bottom: 2em;
+    }
+
+    &__subtitle {
+        margin-bottom: 0.5em;
+    }
+
+}
+
+.slider-type2 {
+    width: 90%;
+
+    &--black {
+        background-color: #292929;
+    }
+    
+}
+
+.swiper-slide {
+
+    &__icons {
+
+        &__number {
+            &--opacity {
+                opacity: 1;
+            }
+
+        }
+    }
+}
+
