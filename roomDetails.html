@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script defer src="./js/sliders.js"></script>
+        <script defer src="./js/menu.js"></script>
+        <title>Home</title>
+    </head>
+    <body>
+        <?php 
+            include 'header.php';
+            $title = 'Ultimate Room';
+            $pageName = 'Room Details';
+            include 'breadcrumb.php';
+        ?>
+
+        <header class="header">
+
+            <div class="header__content">
+
+                <div class="header__content__hamburger-icon" id="menuIcon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <a class="header__content__logo" href="index.html">
+                    <div class="header__content__logo__icon">H</div>
+                    <div class="header__content__logo__title"><b>HOTEL</b> MIRANDA</div>
+                </a>
+                <nav class="header__content__nav" id="menu">
+                    <ul>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="offers.html">Offers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__content__icons">
+                    <div class="header__content__icons__account">
+                        <img src="./img/accountIcon.svg" alt="account"/>
+                    </div>
+                    <div class="header__content__icons__search">
+                        <img src="./img/searchIcon.svg" />
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </header>
+
+        <section class="page-title">
+
+            <p class="page-title__text">THE ULTIMATE LUXURY</p>
+            <h1 class="page-title__title title-page">Ultimate Room</h1>
+            <div class="page-title__breadcrumb-content">
+                <p class="page-title__breadcrumb-content__text">Home<span>|</span><span class="page-title__breadcrumb-content__text__page-name">Room Details</span></p>
+            </div>
+
+        </section>
+    
+    </body>
+
+</html>
