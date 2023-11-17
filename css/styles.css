@@ -278,7 +278,7 @@
 .subtitle-section {
   font-family: "Old Standard TT";
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   line-height: 3.75rem;
   letter-spacing: -0.075rem;
   color: #111111;
@@ -291,8 +291,8 @@
   line-height: 3.125rem;
 }
 .subtitle-section--small {
-  font-size: 2.5rem;
-  line-height: 3.5rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .title-content {
@@ -474,7 +474,7 @@
   margin-bottom: 2em;
 }
 .home-content__about-us__extra-info {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 4em;
@@ -485,18 +485,17 @@
   box-shadow: 0 8px 16px -10px rgba(34, 34, 34, 0.2);
 }
 .home-content__about-us__extra-info__team__image {
-  background-image: url("./../../img/home1.jpg");
-  background-size: 100% 18em;
+  width: 100%;
   height: 18em;
   position: relative;
   bottom: 6em;
 }
 .home-content__about-us__extra-info__team__icons {
+  margin: 0 auto;
   margin-top: -3em;
   margin-bottom: 2em;
   position: relative;
   width: fit-content;
-  left: 50%;
 }
 .home-content__about-us__extra-info__team__icons__icon2 {
   position: absolute;
@@ -510,23 +509,22 @@
   width: 75%;
   margin: 0 auto;
 }
-.home-content__about-us__extra-info__luxury__image {
-  background-image: url("./../../img/home2.jpg");
-  background-size: 100% 18em;
-  height: 18em;
-}
-.home-content__about-us__extra-info__luxury__room {
-  padding-top: 3em;
+.home-content__about-us__extra-info__luxury {
   padding-bottom: 4em;
   background-color: #222222;
 }
-.home-content__about-us__extra-info__luxury__room img {
+.home-content__about-us__extra-info__luxury__image {
+  width: 100%;
+  height: 18em;
+  margin-bottom: 3em;
+}
+.home-content__about-us__extra-info__luxury__icon {
   margin-bottom: 2em;
 }
-.home-content__about-us__extra-info__luxury__room__title {
+.home-content__about-us__extra-info__luxury__title {
   margin-bottom: 1em;
 }
-.home-content__about-us__extra-info__luxury__room__text {
+.home-content__about-us__extra-info__luxury__text {
   width: 75%;
   margin: 0 auto;
 }
