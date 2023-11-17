@@ -8,10 +8,10 @@
         <div class="header__content__hamburger-icon" id="menuIcon">
             <i class="fa-solid fa-bars"></i>
         </div>
-        <div class="header__content__logo">
+        <a class="header__content__logo" href="index.php">
             <div class="header__content__logo__icon">H</div>
-            <div class="header__content__logo__title">HOTEL MIRANDA</div>
-        </div>
+            <div class="header__content__logo__title"><b>HOTEL</b> MIRANDA</div>
+        </a>
         <nav class="header__content__nav" id="menu">
             <ul>
                 <li><a href="aboutUs.php">About Us</a></li>
