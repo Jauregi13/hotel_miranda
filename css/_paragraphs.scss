@@ -19,6 +19,15 @@
         line-height: 2.625rem;
         color: #BEAD8E;
 
+        &--offer {
+            color: #DE5777;
+        }
+
+        &--medium {
+            font-size: 1.438rem;
+            line-height: 1.563rem;
+        }
+
         &--small {
             font-size: 1rem;
             line-height: 1rem;
@@ -29,6 +38,10 @@
         font-family: 'Roboto';
         font-size: 1rem;
         line-height: 1rem;
+    }
+
+    &--second-typography {
+        font-family: 'Roboto';
     }
 
     &--gray {
@@ -51,13 +64,19 @@
         color: #222222;
     }
 
+    &--white {
+        color: #FFFFFF;
+    }
+
     &--bold {
         font-weight: 700;
         font-size: 1rem;
         line-height: 1.13rem;
     }
 
-    &--white {
-        color: #FFFFFF;
+    &--bigger {
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 1em;
     }
 }
