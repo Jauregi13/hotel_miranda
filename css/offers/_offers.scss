@@ -1,74 +1,9 @@
 
+@use './popular';
+@use './rooms';
 
 .offers-content {
 
     padding-top: 3em;
-
-    &__room {
-
-        width: 90%;
-        margin: 0 auto;
-        padding-bottom: 2em;
-        margin-bottom: 2em;
-        box-shadow: 0px 14px 24px 0 rgba($color: #B8B8B8, $alpha: 0.1);
-
-
-        &__image-offer {
-            position: relative;
-
-            &__image {
-                width: 100%;
-                height: 160px;
-                filter: brightness(0.5);
-            }
-
-            &__prices {
-                text-align: end;
-                position: absolute;
-                bottom: 1em;
-                right: 0.5em;
-
-                &__price {
-                    margin-bottom: 0.5em;
-                    text-decoration: line-through;
-                }
-            }
-        }
-
-        &__content {
-            padding-left: 1em;
-            padding-top: 1em;
-
-            &__title {
-                margin-bottom: 1em;
-            }
-
-            &__subtitle {
-                margin-bottom: 0.5em;
-            }
-
-            &__text {
-                margin-bottom: 2em;
-            }
-
-            &__list-icons {
-                list-style: none;
-                columns: 2;
-                margin-bottom: 1em;
-
-                &__icon{
-                    margin-bottom: 0.5em;
-                    display: flex;
-
-                    
-                    &__image {
-                        margin-right: 0.5em;
-                    }
-
-                }
-            }
-
-
-        }
-    }
+    
 }
