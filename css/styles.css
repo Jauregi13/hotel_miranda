@@ -644,7 +644,10 @@
   width: 100%;
   height: 16em;
 }
-.swiper.slider-type1 .swiper-wrapper .swiper-slide img {
+.swiper.slider-type1--height-auto {
+  height: auto;
+}
+.swiper.slider-type1 .swiper-wrapper .swiper-slide__image {
   height: inherit;
   width: 100%;
 }
@@ -886,7 +889,7 @@
 }
 
 .rooms-content__room {
-  width: 90%;
+  width: 380px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 3em;
@@ -938,58 +941,89 @@
   padding-top: 2em;
 }
 
-.offers-content {
+.offers-content__popular {
+  background-color: #222222;
   padding-top: 3em;
+  text-align: center;
 }
-.offers-content__room {
+.offers-content__popular__title {
+  margin-bottom: 2em;
+}
+.offers-content__popular__subtitle {
+  margin-bottom: 1em;
+}
+
+.rooms-content__room {
+  background-color: #FFFFFF;
+  padding-bottom: 2em;
+}
+.rooms-content__room__image-pagination {
+  position: relative;
+}
+
+.swiper-button-prev.swiper-button-prev--move-left {
+  left: var(--swiper-navigation-sides-offset, -8px);
+}
+
+.swiper-button-next.swiper-button-next--move-right {
+  right: var(--swiper-navigation-sides-offset, -8px);
+}
+
+.offers-content__rooms {
   width: 90%;
   margin: 0 auto;
+}
+.offers-content__rooms__room {
   padding-bottom: 2em;
   margin-bottom: 2em;
   box-shadow: 0px 14px 24px 0 rgba(184, 184, 184, 0.1);
 }
-.offers-content__room__image-offer {
+.offers-content__rooms__room__image-offer {
   position: relative;
 }
-.offers-content__room__image-offer__image {
+.offers-content__rooms__room__image-offer__image {
   width: 100%;
   height: 160px;
   filter: brightness(0.5);
 }
-.offers-content__room__image-offer__prices {
+.offers-content__rooms__room__image-offer__prices {
   text-align: end;
   position: absolute;
   bottom: 1em;
   right: 0.5em;
 }
-.offers-content__room__image-offer__prices__price {
+.offers-content__rooms__room__image-offer__prices__price {
   margin-bottom: 0.5em;
   text-decoration: line-through;
 }
-.offers-content__room__content {
+.offers-content__rooms__room__content {
   padding-left: 1em;
   padding-top: 1em;
 }
-.offers-content__room__content__title {
+.offers-content__rooms__room__content__title {
   margin-bottom: 1em;
 }
-.offers-content__room__content__subtitle {
+.offers-content__rooms__room__content__subtitle {
   margin-bottom: 0.5em;
 }
-.offers-content__room__content__text {
+.offers-content__rooms__room__content__text {
   margin-bottom: 2em;
 }
-.offers-content__room__content__list-icons {
+.offers-content__rooms__room__content__list-icons {
   list-style: none;
   columns: 2;
   margin-bottom: 1em;
 }
-.offers-content__room__content__list-icons__icon {
+.offers-content__rooms__room__content__list-icons__icon {
   margin-bottom: 0.5em;
   display: flex;
 }
-.offers-content__room__content__list-icons__icon__image {
+.offers-content__rooms__room__content__list-icons__icon__image {
   margin-right: 0.5em;
+}
+
+.offers-content {
+  padding-top: 3em;
 }
 
 /*@mixin paragraph2 {
