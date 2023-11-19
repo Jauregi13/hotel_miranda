@@ -1067,6 +1067,14 @@
 .contact-content__info__address__number {
   right: 1em;
 }
+.contact-content__info__email {
+  margin-bottom: 8em;
+}
+
+.contact-content__map__image {
+  width: 100%;
+  height: auto;
+}
 
 .contact-content {
   width: 90%;
