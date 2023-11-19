@@ -1,10 +1,12 @@
 
 @use './info';
 @use './map';
+@use './form';
 
 .contact-content {
 
     width: 90%;
     margin: 0 auto;
     padding-top: 4em;
+    margin-bottom: 4em;
 }

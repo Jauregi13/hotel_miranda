@@ -1,0 +1,48 @@
+
+
+.contact-content__form {
+
+    &__input-group {
+        position: relative;
+
+        &__input {
+            width: 100%;
+            background-color: #F8F8F8;
+            border: none;
+            height: 5em;
+            margin-bottom: 1.5em;
+            padding-left: 4em;
+        }
+
+        &__icon{
+            position: absolute;
+            top: 1.5em;
+            left: 1em;
+        }
+
+        &__icon path {
+            fill: #BEAD8E;
+        }
+
+        & textarea {
+            height: auto;
+            background-color: #F8F8F8;
+            width: 100%;
+            border: none;
+            padding-top: 1.8em;
+        }
+    }
+
+    ::placeholder {
+        font-family: 'Roboto';
+        color: #777777;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    &__button {
+        width: 20em;
+        margin: 0 auto;
+    }
+}
