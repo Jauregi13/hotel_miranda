@@ -33,6 +33,10 @@
             }
         }
 
+        & textarea {
+            height: auto;
+        }
+
         &__button {
             width: 100%;
             font-weight: 400;

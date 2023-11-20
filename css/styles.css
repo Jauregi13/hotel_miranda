@@ -1179,6 +1179,9 @@
   height: 1.5em;
   filter: invert(60%);
 }
+.room-details-content__availability__form textarea {
+  height: auto;
+}
 .room-details-content__availability__form__button {
   width: 100%;
   font-weight: 400;
