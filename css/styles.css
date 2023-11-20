@@ -318,6 +318,12 @@
   line-height: 1.5rem;
   color: #222222;
 }
+.title-content--x-small {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: #222222;
+}
 
 .paragraph {
   font-weight: 400;
@@ -382,6 +388,14 @@
   font-weight: 500;
   font-size: 1em;
   line-height: 1em;
+}
+
+.input {
+  width: 100%;
+  background-color: #F8F8F8;
+  border: none;
+  height: 5em;
+  color: #777777;
 }
 
 .home-content__banner-home {
@@ -1086,10 +1100,6 @@
   position: relative;
 }
 .contact-content__form__input-group__input {
-  width: 100%;
-  background-color: #F8F8F8;
-  border: none;
-  height: 5em;
   margin-bottom: 1.5em;
   padding-left: 4em;
 }
@@ -1103,14 +1113,10 @@
 }
 .contact-content__form__input-group textarea {
   height: auto;
-  background-color: #F8F8F8;
-  width: 100%;
-  border: none;
   padding-top: 1.8em;
 }
 .contact-content__form ::placeholder {
   font-family: "Roboto";
-  color: #777777;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1rem;
@@ -1127,6 +1133,9 @@
   margin-bottom: 4em;
 }
 
+.room-details-content__hotel-image {
+  margin-bottom: 2em;
+}
 .room-details-content__hotel-image__title {
   margin-bottom: 1em;
 }
@@ -1142,6 +1151,37 @@
 .room-details-content__hotel-image__image {
   width: 100%;
   height: auto;
+}
+
+.room-details-content__availability {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0 auto;
+}
+.room-details-content__availability__title {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.room-details-content__availability__form__label {
+  font-size: 0.875rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: #222222;
+}
+.room-details-content__availability__form__input {
+  margin-bottom: 1em;
+  padding-left: 2em;
+  height: 4em;
+}
+.room-details-content__availability__form__input[type=date]::-webkit-calendar-picker-indicator {
+  padding-right: 2em;
+  width: 1.5em;
+  height: 1.5em;
+  filter: invert(60%);
+}
+.room-details-content__availability__form__button {
+  width: 100%;
+  font-weight: 400;
 }
 
 .room-details-content {
