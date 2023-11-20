@@ -287,8 +287,9 @@
   color: #FFFFFF;
 }
 .subtitle-section--medium {
-  font-size: 3rem;
+  font-size: 2.8rem;
   line-height: 3.125rem;
+  color: #222222;
 }
 .subtitle-section--small {
   font-size: 2rem;
@@ -1122,6 +1123,29 @@
   margin: 0 auto;
   padding-top: 4em;
   margin-bottom: 4em;
+}
+
+.room-details-content__hotel-image__title {
+  margin-bottom: 1em;
+}
+.room-details-content__hotel-image__subtitle {
+  margin-bottom: 0.5em;
+}
+.room-details-content__hotel-image__price {
+  margin-bottom: 1em;
+}
+.room-details-content__hotel-image__price span {
+  font-size: 0.813rem;
+}
+.room-details-content__hotel-image__image {
+  width: 100%;
+  height: auto;
+}
+
+.room-details-content {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2em;
 }
 
 /*@mixin paragraph2 {
