@@ -1038,7 +1038,7 @@
   margin-bottom: 1em;
 }
 .offers-content__rooms__room__content__list-icons__icon {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   display: flex;
 }
 .offers-content__rooms__room__content__list-icons__icon__image {
@@ -1186,6 +1186,28 @@
 .room-details-content__availability__form__button {
   width: 100%;
   font-weight: 400;
+}
+
+.room-details-content__info {
+  margin-bottom: 3em;
+}
+
+.room-details-content__amenities__title {
+  margin-bottom: 1em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #F1F1F1;
+}
+.room-details-content__amenities__icons {
+  list-style: none;
+  columns: 2;
+  margin-bottom: 1em;
+}
+.room-details-content__amenities__icons__icon {
+  margin-bottom: 1em;
+  display: flex;
+}
+.room-details-content__amenities__icons__icon__image {
+  margin-right: 0.7em;
 }
 
 .room-details-content {
