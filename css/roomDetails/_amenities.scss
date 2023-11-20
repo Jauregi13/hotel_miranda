@@ -1,0 +1,27 @@
+
+
+.room-details-content__amenities {
+
+    &__title {
+        margin-bottom: 1em;
+        padding-bottom: 0.3em;
+        border-bottom: 1px solid #F1F1F1;
+    }
+
+    &__icons {
+
+        list-style: none;
+        columns: 2;
+        margin-bottom: 1em;
+
+        &__icon {
+            margin-bottom: 1em;
+            display: flex;
+
+            &__image {
+                margin-right: 0.7em;
+            }
+        }
+    }
+
+}
