@@ -286,10 +286,12 @@
 .subtitle-section--white {
   color: #FFFFFF;
 }
+.subtitle-section--black {
+  color: #222222;
+}
 .subtitle-section--medium {
   font-size: 2.8rem;
   line-height: 3.125rem;
-  color: #222222;
 }
 .subtitle-section--small {
   font-size: 2rem;
