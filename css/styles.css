@@ -1216,6 +1216,7 @@
 .room-details-content__founder {
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 5em;
 }
 .room-details-content__founder__image {
   margin: 0 auto;
@@ -1251,6 +1252,12 @@
 .room-details-content__founder__text {
   margin: 0 auto;
   width: 80%;
+}
+
+.room-details-content__cancellation__title {
+  margin-bottom: 1em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #F1F1F1;
 }
 
 .room-details-content {
