@@ -20,20 +20,4 @@
 
     background-color: #FFFFFF;
     padding-bottom: 2em;
-
-    &__image-pagination {
-        position: relative;
-    }
-}
-
-.swiper-button-prev.swiper-button-prev--move-left {
-
-    left: var(--swiper-navigation-sides-offset,-8px);
-     
-}
-
-.swiper-button-next.swiper-button-next--move-right {
-
-    right: var(--swiper-navigation-sides-offset,-8px);
-     
 }

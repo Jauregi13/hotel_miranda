@@ -17,9 +17,31 @@
                     height: auto;
                     width: 100%;
                 }
+
+                & .rooms-content__room {
+
+                    &__image-navigation {
+                        position: relative;
+        
+        
+                        & .swiper-button-prev.swiper-button-prev--move-left {
+        
+                            left: var(--swiper-navigation-sides-offset,-8px);
+                             
+                        }
+        
+                        & .swiper-button-next.swiper-button-next--move-right {
+        
+                            right: var(--swiper-navigation-sides-offset,-8px);
+                             
+                        }
+                    }
+                }
                 
             }
         }
+
+        
     
         & .swiper-button-prev::after, & .swiper-button-next::after {
             content: '';
