@@ -79,18 +79,18 @@
 .footer__content {
   background-image: url("./../img/backgroundFooter.svg");
   padding-top: 2em;
-  padding-left: 2em;
+  padding-left: 5%;
   width: 100%;
 }
 .footer__content h3 {
   font-size: 1.5rem;
 }
-.footer__content__logo {
+.footer__content__info__logo {
   display: flex;
   align-items: center;
   margin-bottom: 2em;
 }
-.footer__content__logo__icon {
+.footer__content__info__logo__icon {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 2.7rem;
@@ -99,27 +99,27 @@
   padding: 0.6em;
   margin-right: 1em;
 }
-.footer__content__logo__title {
+.footer__content__info__logo__title {
   font-size: 1.63rem;
   line-height: 1.75rem;
   letter-spacing: 0.15rem;
-  width: 50%;
+  width: 6em;
 }
-.footer__content__introduction {
+.footer__content__info__introduction {
   width: 90%;
   margin-bottom: 2em;
 }
-.footer__content__social-media i {
-  font-size: 2.5rem;
+.footer__content__info__social-media i {
+  font-size: 2rem;
   color: #777777;
   margin-right: 0.2em;
   padding: 0.2em;
   background-color: #F8F8F8;
 }
-.footer__content__social-media {
+.footer__content__info__social-media {
   margin-bottom: 2em;
 }
-.footer__content__social-media i:hover {
+.footer__content__info__social-media i:hover {
   background-color: #BEAD8E;
   color: #FFFFFF;
 }
@@ -169,7 +169,8 @@
   padding-bottom: 2em;
 }
 .footer__copyright {
-  padding-left: 1em;
+  width: 100%;
+  padding-left: 5%;
   padding-top: 1em;
   background-color: #F8F8F8;
   padding-bottom: 1em;
@@ -187,6 +188,38 @@
   margin-left: 1em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .footer__content {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__content__info {
+    width: 35%;
+  }
+  .footer__content__info__introduction {
+    width: 65%;
+  }
+  .footer__content__services {
+    width: 40%;
+  }
+  .footer__content__contact-us {
+    width: 25%;
+    margin-left: 2%;
+  }
+  .footer__copyright {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .footer__copyright__terms {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
 .page-title {
   margin-top: 3.5em;
   background-color: #333333;
