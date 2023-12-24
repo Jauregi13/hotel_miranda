@@ -4,59 +4,70 @@
     &__content {
         background-image: url('./../img/backgroundFooter.svg');
         padding-top: 2em;
-        padding-left: 2em;
+        padding-left: 5%;
         width: 100%;
 
         & h3 {
             font-size: 1.5rem;
         }
 
-        &__logo {
-            display: flex;
-            align-items: center;
-            margin-bottom: 2em;
+        &__info {
 
-            &__icon {
-                font-size: 2.5rem;
-                font-weight: 700;
-                line-height: 2.7rem;
-                color: #FFFFFF;
-                background-color: #BEAD8E;
-                padding: 0.6em;
-                margin-right: 1em;
+            &__logo {
+                display: flex;
+                align-items: center;
+                margin-bottom: 2em;
+    
+                &__icon {
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                    line-height: 2.7rem;
+                    color: #FFFFFF;
+                    background-color: #BEAD8E;
+                    padding: 0.6em;
+                    margin-right: 1em;
+                }
+    
+                &__title {
+                    font-size: 1.63rem;
+                    line-height: 1.75rem;
+                    letter-spacing: 0.15rem;
+                    width: 6em;
+                }
             }
 
-            &__title {
-                font-size: 1.63rem;
-                line-height: 1.75rem;
-                letter-spacing: 0.15rem;
-                width: 50%;
+            &__introduction {
+                width: 90%;
+                margin-bottom: 2em;
+            }
+
+            &__social-media i {
+                font-size: 2rem;
+                color: #777777;
+                margin-right: 0.2em;
+                padding: 0.2em;
+                background-color: #F8F8F8;
+            }
+    
+            &__social-media {
+    
+                margin-bottom: 2em;
+    
+                & i:hover {
+                    background-color: #BEAD8E;
+                    color: #FFFFFF;
+                }
+    
             }
         }
 
-        &__introduction {
-            width: 90%;
-            margin-bottom: 2em;
-        }
+        
 
-        &__social-media i {
-            font-size: 2.5rem;
-            color: #777777;
-            margin-right: 0.2em;
-            padding: 0.2em;
-            background-color: #F8F8F8;
-        }
+        
 
-        &__social-media {
+        
 
-            margin-bottom: 2em;
-
-            & i:hover {
-                background-color: #BEAD8E;
-                color: #FFFFFF;
-            }
-
-        }
+        
 
         &__services {
 
@@ -129,7 +140,8 @@
     }
 
     &__copyright {
-        padding-left: 1em;
+        width: 100%;
+        padding-left: 5%;
         padding-top: 1em;
         background-color: #F8F8F8;
         padding-bottom: 1em;
@@ -149,4 +161,46 @@
         }
     }
     
+}
+
+@media only screen and (min-width:1000px) {
+    
+
+    .footer__content {
+        padding-left: 15%;
+        padding-right: 15%;
+        display: flex;
+        flex-direction: row;
+
+        &__info {
+            width: 35%;
+
+            &__introduction {
+                width: 65%;
+            }
+        }
+
+        &__services {
+            width: 40%;
+        }
+        
+        &__contact-us {
+            width: 25%;
+            margin-left: 2%;
+        }
+    }
+
+    .footer__copyright {
+        display: flex;
+        flex-direction: row;
+        padding-left: 15%;
+        padding-right: 15%;
+
+        &__terms {
+            flex-grow: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
 }
