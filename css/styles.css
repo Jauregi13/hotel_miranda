@@ -322,13 +322,25 @@
 
 @media only screen and (min-width: 1000px) {
   .page-title {
-    margin-top: 0;
+    padding-top: 8em;
+  }
+  .page-title__text {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .page-title__title {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 0.5em;
+  }
+  .page-title__breadcrumb-content {
+    width: 70%;
   }
 }
 .button {
   background-color: #BDAC8D;
+  border: 2px solid #BDAC8D;
   color: #FFFFFF;
-  border: none;
   height: 3em;
   font-weight: 700;
   font-family: "Archivo";
@@ -343,7 +355,6 @@
   align-items: center;
 }
 .button--dark {
-  color: #FFFFFF;
   background-color: #333333;
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
@@ -525,12 +536,34 @@
   margin-bottom: 1em;
 }
 .home-content__banner-home__content__buttons__learn {
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  height: 3em;
   color: #FFFFFF;
   background-color: #333333;
 }
 
+@media only screen and (min-width: 1000px) {
+  .home-content__banner-home__content {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 7em;
+  }
+  .home-content__banner-home__content__text {
+    width: 100%;
+  }
+  .home-content__banner-home__content__title {
+    font-size: 7rem;
+    line-height: 8rem;
+    max-width: 7em;
+  }
+  .home-content__banner-home__content__buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .home-content__banner-home__content__buttons__tour {
+    margin-right: 2em;
+    margin-bottom: 0;
+  }
+}
 .home-content__booking-calendar {
   background-color: #222222;
   margin-bottom: 2em;
