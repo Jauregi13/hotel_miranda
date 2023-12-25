@@ -2,8 +2,8 @@
 
 .button {
     background-color: #BDAC8D;
+    border: 2px solid #BDAC8D;
     color: #FFFFFF;
-    border: none;
     height: 3em;
     font-weight: 700;
     font-family: variables.$font-primary;
@@ -18,7 +18,6 @@
     align-items: center;   
     
     &--dark {
-        color: #FFFFFF;
         background-color: #333333;
         border: 2px solid rgba(255, 255, 255, 0.3);
     }

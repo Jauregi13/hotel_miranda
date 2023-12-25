@@ -51,6 +51,22 @@
 
     .page-title {
 
-        margin-top:  0;
+        padding-top: 8em;
+
+        &__text {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        &__title {
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 0.5em;
+        }
+
+
+        &__breadcrumb-content {
+            width: 70%;
+        }
     }
 }
