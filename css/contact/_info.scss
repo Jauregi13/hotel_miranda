@@ -59,3 +59,28 @@
 
     
 }
+
+
+@media only screen and (min-width:1000px) {
+
+    .contact-content__info {
+
+        display: flex;
+
+        &__address, &__phone, &__email {
+
+            width: 30%;
+            padding-left: 2%;
+
+            &__number {
+                right: 0;
+                left: 9em;
+            }
+
+        }
+
+        &__phone, &__email {
+            margin-left: 4%;
+        }
+    }
+}

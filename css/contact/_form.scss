@@ -38,3 +38,31 @@
         margin: 0 auto;
     }
 }
+
+@media only screen and (min-width:1000px) {
+
+    .contact-content__form {
+
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 6em;
+        padding-bottom: 4em;
+        
+        
+        & form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1em;
+        }
+
+        &__input-group {
+            width: 100%;
+            margin-left: 1em;
+        }
+
+        &__input-group:has(textarea), &__button{
+            grid-column: 1 / 3;
+        }
+
+    }
+}

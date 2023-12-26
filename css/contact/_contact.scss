@@ -10,3 +10,11 @@
     padding-top: 4em;
     margin-bottom: 4em;
 }
+
+@media only screen and (min-width:1000px) {
+
+    .contact-content {
+
+        width: 70%;
+    }
+}
