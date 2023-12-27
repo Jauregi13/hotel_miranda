@@ -1,11 +1,11 @@
 
+@use './../paragraphs';
 
 .rooms-content {
 
     &__room {
 
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
         text-align: center;
         margin-bottom: 3em;
 
@@ -14,49 +14,139 @@
             height: auto;
         }
 
-        &__icons {
+        &__info {
+
+            &__icons {
             
-            background-color: #FFFFFF;
-            box-shadow: 0 8px 16px rgba($color: #8A8A8A0D, $alpha: 0.05);
-            width: 19.5em;
-            margin: 0 auto;
-            padding-bottom: 1.5em;
-            padding-top: 1.5em;
-            padding-left: 2em;
-            position: relative;
-            bottom: 2.2em;
-            z-index: 2;
+                background-color: #FFFFFF;
+                box-shadow: 0 8px 16px rgba($color: #8A8A8A0D, $alpha: 0.05);
+                width: 90%;
+                max-width: 20em;
+                margin: 0 auto;
+                padding-bottom: 1em;
+                padding-top: 1em;
+                padding-left: 1em;
+                position: relative;
+                bottom: 2em;
+                z-index: 2;
+        
+                & i {
+                    margin-right: 1.2em; 
+                }
+            }
     
-            & i {
-                margin-right: 1.2em; 
+            &__title {
+                margin-bottom: 0.5em;
+            }
+    
+            &__text {
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 1em;
             }
         }
 
-        &__title {
-            margin-bottom: 0.5em;
+        &__booking {
+
+            &__price {
+                display: inline-block;
+                margin-right: 2em;
+            }
+
+            &__line {
+                display: none;
+            }
+    
+            &__book {
+                display: inline-block;
+                text-decoration: none;
+                color: #BDBDBD;
+                font-size: 1rem;
+                font-weight: 700;
+                line-height: 1rem;
+    
+                &:hover {
+                    color: #222222;
+                }
+            }
         }
 
-        &__text {
-            width: 90%;
-            margin: 0 auto;
-            margin-bottom: 1em;
+        
+
+        
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width: 1450px) {
+
+    .rooms-content__room {
+        display: flex;
+
+        &__image {
+            width: 35%;
         }
 
-        &__price {
-            display: inline-block;
-            margin-right: 2em;
+        &__info {
+
+            padding-top: 1em;
+            text-align: left;
+            margin-left: 4%;
+
+            &__icons {
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                margin: 0;
+                position: unset;
+                margin-bottom: 2em;
+                min-width: 16.2rem;
+                max-width: 19em;
+            }
+
+            &__text {
+                margin: 0;
+            }
         }
 
-        &__book {
-            display: inline-block;
-            text-decoration: none;
-            color: #BDBDBD;
-            font-size: 1rem;
-            font-weight: 700;
-            line-height: 1rem;
+        &__booking {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            
 
-            &:hover {
-                color: #222222;
+            &__price {
+                font-size: 2rem;
+                line-height: 2.7rem;
+                margin: 0;
+                margin-bottom: 0.3em;
+            }
+
+            &__line {
+                display: block;
+                width: 50%;
+                margin: 0 auto;
+                color: #F1F1F1;
+                margin-bottom: 0.8em;
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (min-width:1450px) {
+
+    .rooms-content__room {
+
+        width: 100%;
+
+        &__booking {
+
+            &__price {
+                
+                font-size: 1rem;
+                line-height: 1rem;
             }
         }
     }

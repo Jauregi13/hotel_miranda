@@ -455,13 +455,17 @@
 .paragraph--price--offer {
   color: #DE5777;
 }
+.paragraph--price--small {
+  font-size: 1rem;
+  line-height: 1rem;
+}
 .paragraph--price--medium {
   font-size: 1.438rem;
   line-height: 1.563rem;
 }
-.paragraph--price--small {
-  font-size: 1rem;
-  line-height: 1rem;
+.paragraph--price--big {
+  font-size: 2.5rem;
+  line-height: 2.7rem;
 }
 .paragraph--about-counter {
   font-family: "Roboto";
@@ -1052,8 +1056,7 @@
 }
 
 .rooms-content__room {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   text-align: center;
   margin-bottom: 3em;
 }
@@ -1061,34 +1064,38 @@
   width: 100%;
   height: auto;
 }
-.rooms-content__room__icons {
+.rooms-content__room__info__icons {
   background-color: #FFFFFF;
   box-shadow: 0 8px 16px rgba(138, 138, 138, 0.05);
-  width: 19.5em;
+  width: 90%;
+  max-width: 20em;
   margin: 0 auto;
-  padding-bottom: 1.5em;
-  padding-top: 1.5em;
-  padding-left: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-left: 1em;
   position: relative;
-  bottom: 2.2em;
+  bottom: 2em;
   z-index: 2;
 }
-.rooms-content__room__icons i {
+.rooms-content__room__info__icons i {
   margin-right: 1.2em;
 }
-.rooms-content__room__title {
+.rooms-content__room__info__title {
   margin-bottom: 0.5em;
 }
-.rooms-content__room__text {
+.rooms-content__room__info__text {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 1em;
 }
-.rooms-content__room__price {
+.rooms-content__room__booking__price {
   display: inline-block;
   margin-right: 2em;
 }
-.rooms-content__room__book {
+.rooms-content__room__booking__line {
+  display: none;
+}
+.rooms-content__room__booking__book {
   display: inline-block;
   text-decoration: none;
   color: #BDBDBD;
@@ -1096,14 +1103,84 @@
   font-weight: 700;
   line-height: 1rem;
 }
-.rooms-content__room__book:hover {
+.rooms-content__room__booking__book:hover {
   color: #222222;
 }
 
+@media only screen and (min-width: 1000px) and (max-width: 1450px) {
+  .rooms-content__room {
+    display: flex;
+  }
+  .rooms-content__room__image {
+    width: 35%;
+  }
+  .rooms-content__room__info {
+    padding-top: 1em;
+    text-align: left;
+    margin-left: 4%;
+  }
+  .rooms-content__room__info__icons {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0;
+    position: unset;
+    margin-bottom: 2em;
+    min-width: 16.2rem;
+    max-width: 19em;
+  }
+  .rooms-content__room__info__text {
+    margin: 0;
+  }
+  .rooms-content__room__booking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .rooms-content__room__booking__price {
+    font-size: 2rem;
+    line-height: 2.7rem;
+    margin: 0;
+    margin-bottom: 0.3em;
+  }
+  .rooms-content__room__booking__line {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    color: #F1F1F1;
+    margin-bottom: 0.8em;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  .rooms-content__room {
+    width: 100%;
+  }
+  .rooms-content__room__booking__price {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
 .rooms-content {
+  width: 90%;
+  margin: 0 auto;
   padding-top: 2em;
 }
 
+@media only screen and (min-width: 1000px) {
+  .rooms-content {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  .rooms-content {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+}
 .offers-content__popular {
   background-color: #222222;
   padding-top: 3em;
