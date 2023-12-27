@@ -2,6 +2,31 @@
 @use './room';
 
 .rooms-content {
-
+    
+    width: 90%;
+    margin: 0 auto;
     padding-top: 2em;
 }
+
+@media only screen and (min-width:1000px) {
+
+    .rooms-content {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    
+    
+}
+
+@media only screen and (min-width:1450px) {
+
+    .rooms-content {
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+}
+
