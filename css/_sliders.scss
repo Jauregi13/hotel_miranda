@@ -1,4 +1,6 @@
 
+@import './rooms/mixinRoom';
+
 @mixin sliderType1 {
 
     .swiper.slider-type1 {
@@ -13,12 +15,7 @@
     
             & .swiper-slide {
 
-                &__image {
-                    height: auto;
-                    width: 100%;
-                }
-
-                & .rooms-content__room {
+                &__room {
 
                     &__image-navigation {
                         position: relative;

@@ -1,4 +1,5 @@
 
+@import './../rooms/mixinRoom';
 
 .offers-content__popular {
 
@@ -14,10 +15,72 @@
     &__subtitle {
         margin-bottom: 1em;
     }
+
+    &__rooms {
+        display: none;
+
+        &__room {
+            background-color: #FFFFFF;
+            padding-bottom: 2em;
+        }   
+    }
+
+
 }
 
-.rooms-content__room {
+.swiper-slide {
 
-    background-color: #FFFFFF;
-    padding-bottom: 2em;
+    @include roomStyle();
+
+    &__room {
+
+        background-color: #FFFFFF;
+        padding-bottom: 2em;
+    }
+
+    
+
+}
+
+@media only screen and (min-width:1000px) and (max-width:1450px) {
+
+    .swiper-slide {
+
+        &__room--smaller-size {
+            width: 70%;
+        }
+    }
+
+}
+
+@media only screen and (min-width:1450px){
+
+
+    .offers-content__popular {
+
+        .swiper.slider-type1 {
+            display: none;
+        }
+
+        &__rooms {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            gap: 1em;
+            @include roomStyle();
+
+            &__room {
+                width: 45%;
+            }
+            
+
+
+        }
+
+        
+
+
+    }
+
+    
 }
