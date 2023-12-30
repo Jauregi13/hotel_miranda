@@ -1,4 +1,5 @@
 
+@import './../mixinFeatures';
 
 
 .about-content__facilities {
@@ -6,7 +7,12 @@
     text-align: center;
     background-color: #222222;
     padding-top: 2em;
+    padding-bottom: 3em;
     margin-bottom: 3em;
+
+    @media only screen and (min-width:1000px){
+        padding-bottom: 5em;
+    }
 
     &__title {
         margin-bottom: 2em;
@@ -16,27 +22,39 @@
         margin-bottom: 0.5em;
     }
 
-}
+    &__cards {
+        
+        display: none;
+        width: 70%;
+        margin: 0 auto;
+        @include featuresStyle();
 
-.slider-type2 {
-    width: 90%;
-
-    &--black {
-        background-color: #292929;
-    }
-    
-}
-
-.swiper-slide {
-
-    &__icons {
-
-        &__number {
-            &--opacity {
-                opacity: 1;
-            }
-
+        @media only screen and (min-width:1000px){
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2em;
         }
+
+
     }
+
+    .slider-type2 {
+        width: 90%;
+
+        @media only screen and (min-width:1000px){
+            display: none;
+        }
+
+        .swiper-slide {
+
+            @include featuresStyle();
+        }
+        
+    }
+
 }
+
+
+
+
 

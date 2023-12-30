@@ -1,6 +1,4 @@
 
-@import './rooms/mixinRoom';
-
 @mixin sliderType1 {
 
     .swiper.slider-type1 {
@@ -81,64 +79,12 @@
 
     .swiper-wrapper.swiper-wrapper--size-change {
         
-        margin: 0 auto;
-        width: 75%;
         text-align: left;
-        margin-bottom: 4em;
+        margin-bottom: 2.5em;
     }
 
     .swiper-wrapper {
         margin-bottom: 2em;
-    }
-
-
-    
-    .swiper-slide {
-    
-        &__icons {
-            width: 83%;
-            display: flex;
-            height: 9em;
-            margin-bottom: 2em;
-    
-            &__icon {
-                width: 23%;
-                display: flex;
-                height: inherit;
-                align-items: flex-end;
-    
-                & img {
-                    width: 70px;
-                    height: 70px;
-                }
-            }
-    
-            &__number {
-                width: 77%;
-                display: flex;
-                justify-content: flex-end;
-                font-weight: 700;
-                font-size: 7.5rem;
-                line-height: 8.125rem;
-                color: #222222;
-                opacity: 0.04;
-                
-            }
-        }
-    
-        &__title {
-            margin-bottom: 1em;
-        }
-    
-        &__text {
-            width: 75%;
-        }
-
-        &__img {
-            width: 100%;
-            height: 250px;
-            
-        }
     }
     
     .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -147,6 +93,10 @@
     
     .swiper-pagination-bullet {
         background-color: #EDEDED;
+
+        &--black {
+            background-color: #333333;
+        }
     }
 
 }
