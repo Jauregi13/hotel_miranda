@@ -13,9 +13,9 @@
     <body>
 
         <header class="header">
-
+            <p class="header__banner paragraph paragraph--white paragraph--second-typography">We Make Your Feel Comfortable</p>
             <div class="header__content">
-
+                
                 <div class="header__content__hamburger-icon" id="menuIcon">
                     <i class="fa-solid fa-bars"></i>
                 </div>
@@ -32,17 +32,17 @@
                     </ul>
                 </nav>
                 <div class="header__content__icons">
-                    <div class="header__content__icons__account">
+                    <div class="header__content__icons__icon">
                         <img src="./img/accountIcon.svg" alt="account"/>
                     </div>
-                    <div class="header__content__icons__search">
+                    <div class="header__content__icons__icon">
                         <img src="./img/searchIcon.svg" />
                     </div>
                 </div>
                 
-
+        
             </div>
-
+        
         </header>
 
         <div class="home-content">
@@ -67,11 +67,16 @@
 
                 <form class="home-content__booking-calendar__form">
 
-                    <label for="arrival">Arrival Date</label>
-                    <input type="date" name="arrival">
-
-                    <label for="departure">LeDeparture Date</label>
-                    <input type="date" name="departure">
+                    <div class="home-content__booking-calendar__form__input-group">
+                        <label for="arrival">Arrival Date</label>
+                        <input type="date" name="arrival">
+                    </div>
+                    
+                    <div class="home-content__booking-calendar__form__input-group">
+                        <label for="departure">Departure Date</label>
+                        <input type="date" name="departure">
+                    </div>
+                    
 
                     <input type="submit" value="CHECK AVAILABILITY" class="button button--bigger" name="check"/>
 
@@ -91,21 +96,32 @@
                 <div class="home-content__about-us__extra-info">
 
                     <div class="home-content__about-us__extra-info__team">
-                        <img src="./img/home1.jpg" alt="Team" class="home-content__about-us__extra-info__team__image">
-                        <div class="home-content__about-us__extra-info__team__icons">
-                            <img src='./img/teamIcon1.svg' alt="teamIcon1" />
-                            <img src="./img/teamIcon2.svg" alt="teamIcon2" class="home-content__about-us__extra-info__team__icons__icon2"/>
+                        <div class="home-content__about-us__extra-info__team__image">
+                            <img src="./img/home1.jpg" alt="Team" />
                         </div>
-                        <h4 class="home-content__about-us__extra-info__team__title title-content">Strong Team</h4>
-                        <p class="home-content__about-us__extra-info__team__text paragraph paragraph--black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        
+                        <div class="home-content__about-us__extra-info__team__content">
+                            <div class="home-content__about-us__extra-info__team__content__icons">
+                                <img src='./img/teamIcon1.svg' alt="teamIcon1" />
+                                <img src="./img/teamIcon2.svg" alt="teamIcon2" class="home-content__about-us__extra-info__team__content__icons__icon2"/>
+                            </div>
+                            <h4 class="home-content__about-us__extra-info__team__content__title title-content">Strong Team</h4>
+                            <p class="home-content__about-us__extra-info__team__content__text paragraph paragraph--black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        
                     </div>
 
                     <div class="home-content__about-us__extra-info__luxury">
+
+                        <div class="home-content__about-us__extra-info__luxury__image">
+                            <img src="./img/home2.jpg" alt="Luxury Room" />
+                        </div>
+                        <div class="home-content__about-us__extra-info__luxury__content">
+                            <img src="./img/luxuryRoomIcon.svg" alt="luxury Room" class="home-content__about-us__extra-info__luxury__content__icon">
+                            <h4 class="home-content__about-us__extra-info__luxury__content__title title-content title-content--white">Luxury Room</h4>
+                            <p class="home-content__about-us__extra-info__luxury__content__text paragraph paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        </div>
                         
-                        <img src="./img/home2.jpg" alt="Luxury Room" class="home-content__about-us__extra-info__luxury__image">
-                        <img src="./img/luxuryRoomIcon.svg" alt="luxury Room" class="home-content__about-us__extra-info__luxury__icon">
-                        <h4 class="home-content__about-us__extra-info__luxury__title title-content title-content--white">Luxury Room</h4>
-                        <p class="home-content__about-us__extra-info__luxury__text paragraph paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                     </div>
 
                 </div>
@@ -157,12 +173,19 @@
 
             <section class="home-content__video">
 
-                <h2 class="home-content__video__title title-section title-section--yellow">INTRO VIDEO</h2>
-                <h3 class="home-content__video__subtitle subtitle-section subtitle-section--white">Meet With Our Luxury Place.</h3>
-                <p class="home-content__video__text paragraph paragraph--gray2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
-                <iframe src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25" width="95%" height="280px" frameborder="0"></iframe>
-                <button class="home-content__video__button button">BOOK NOW</button>
+                <div class="home-content__video__info">
+                    <div class="home-content__video__info__text">
+                        <h2 class="home-content__video__info__text__title title-section title-section--yellow">INTRO VIDEO</h2>
+                        <h3 class="home-content__video__info__text__subtitle subtitle-section subtitle-section--white">Meet With Our Luxury Place.</h3>
+                        <p class="home-content__video__info__text_paragraph paragraph paragraph--gray2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
+                    </div>
+                    <iframe src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25" class="home-content__video__info__video-player" width="95%" frameborder="0"></iframe>
+                </div>
+                <div class="home-content__video__button">
+                    <button class="button">BOOK NOW</button>
+                </div>
+                
             </section>
 
             <section class="home-content__facilities">
@@ -276,22 +299,26 @@
 
             <div class="footer__content">
 
-                <div class="footer__content__logo">
+                <div class="footer__content__info">
 
-                    <span class="footer__content__logo__icon">H</span>
-                    <p class="footer__content__logo__title"><b>HOTEL</b> MIRANDA</p>
-                </div>
+                    <div class="footer__content__info__logo">
 
-                <p class="footer__content__introduction paragraph paragraph--gray">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
+                        <span class="footer__content__info__logo__icon">H</span>
+                        <p class="footer__content__info__logo__title"><b>HOTEL</b> MIRANDA</p>
+                        
+                    </div>
 
-                <div class="footer__content__social-media">
-                    <i class="fa-brands fa-square-facebook"></i>
-                    <i class="fa-brands fa-square-twitter"></i>
-                    <i class="fa-brands fa-square-behance"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-square-youtube"></i>
-                </div>
+                    <p class="footer__content__info__introduction paragraph paragraph--gray">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
+                    <div class="footer__content__info__social-media">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-brands fa-square-behance"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </div>
+
+                </div>  
 
                 <div class="footer__content__services">
 
@@ -320,7 +347,7 @@
 
                 <div class="footer__content__contact-us">
 
-                    <h3 class="footer__content__contact-us subtitle-section">Contact Us.</h3>
+                    <h3 class="footer__content__contact-us__title subtitle-section">Contact Us.</h3>
                     <div class="footer__content__contact-us__telephone">
                         <img src="./img/telephoneIcon.svg" alt="telephoneIcon">
                         <div class="footer__content__contact-us__telephone__info">
