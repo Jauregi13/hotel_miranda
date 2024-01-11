@@ -579,53 +579,94 @@
   padding-left: 1em;
   padding-bottom: 2em;
 }
-.home-content__booking-calendar__form label {
+@media only screen and (min-width: 1000px) {
+  .home-content__booking-calendar__form {
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.home-content__booking-calendar__form__input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.home-content__booking-calendar__form__input-group label {
   font-family: "Roboto";
   color: #FFFFFF;
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 1em;
 }
-.home-content__booking-calendar__form input[type=date] {
+.home-content__booking-calendar__form__input-group input[type=date] {
+  position: relative;
   width: 80%;
   appearance: none;
   border: none;
   border-bottom: 1px solid #BEAD8E;
-  background-color: #222222;
+  background-color: hsl(0, 0%, 13%);
   margin-bottom: 2em;
   color: #686868;
   font-family: "Roboto";
   padding-left: 2em;
   padding-bottom: 0.5em;
 }
-.home-content__booking-calendar__form input[type=date]::-webkit-calendar-picker-indicator {
+.home-content__booking-calendar__form__input-group input[type=date]::-webkit-calendar-picker-indicator {
   position: absolute;
-  left: 1em;
+  left: 0;
   background-image: url("./../img/calendarIcon.svg");
   background-repeat: no-repeat;
   width: 1rem;
   height: 1rem;
 }
-.home-content__booking-calendar__form input[type=date]:focus {
+.home-content__booking-calendar__form__input-group input[type=date]:focus {
   appearance: none;
   outline: none;
 }
 .home-content__booking-calendar__form input[type=submit] {
   width: 70%;
 }
+@media only screen and (min-width: 1000px) {
+  .home-content__booking-calendar__form input[type=submit] {
+    margin-left: 5em;
+    padding: 0;
+  }
+}
 
+@media only screen and (min-width: 1000px) {
+  .home-content__about-us {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2em;
+  }
+}
 .home-content__about-us__info {
   background-color: #F9F9F9;
   padding-left: 1em;
   padding-bottom: 10em;
+  padding-top: 2em;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__about-us__info {
+    width: 60%;
+    background-color: transparent;
+    padding-top: 7em;
+  }
 }
 .home-content__about-us__info__title {
-  padding-top: 2em;
   margin-bottom: 2em;
 }
 .home-content__about-us__info__subtitle {
   text-align: center;
   margin-bottom: 0.5em;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__about-us__info__subtitle {
+    text-align: left;
+  }
 }
 .home-content__about-us__info__text {
   color: #777777;
@@ -638,51 +679,114 @@
   padding-bottom: 4em;
 }
 .home-content__about-us__extra-info__team {
-  margin-bottom: 5em;
-  padding-bottom: 3em;
-  box-shadow: 0 8px 16px -10px rgba(34, 34, 34, 0.2);
+  margin-bottom: 3em;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__about-us__extra-info__team {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2em;
+    margin-bottom: 2em;
+    padding-bottom: 0;
+  }
 }
 .home-content__about-us__extra-info__team__image {
   width: 100%;
-  height: 18em;
   position: relative;
   bottom: 6em;
 }
-.home-content__about-us__extra-info__team__icons {
+@media only screen and (min-width: 1000px) {
+  .home-content__about-us__extra-info__team__image {
+    bottom: 0;
+    top: 2em;
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+  }
+}
+.home-content__about-us__extra-info__team__image img {
+  max-width: 100%;
+  height: auto;
+}
+.home-content__about-us__extra-info__team__content {
+  box-shadow: 0 8px 16px -10px rgba(34, 34, 34, 0.2);
+  padding-bottom: 3em;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__about-us__extra-info__team__content {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 50%;
+  }
+}
+.home-content__about-us__extra-info__team__content__icons {
   margin: 0 auto;
   margin-top: -3em;
   margin-bottom: 2em;
   position: relative;
   width: fit-content;
 }
-.home-content__about-us__extra-info__team__icons__icon2 {
+@media only screen and (min-width: 1000px) {
+  .home-content__about-us__extra-info__team__content__icons {
+    margin-top: 0;
+  }
+}
+.home-content__about-us__extra-info__team__content__icons__icon2 {
   position: absolute;
   left: 2em;
   z-index: -1;
 }
-.home-content__about-us__extra-info__team__title {
+.home-content__about-us__extra-info__team__content__title {
   margin-bottom: 1em;
 }
-.home-content__about-us__extra-info__team__text {
+.home-content__about-us__extra-info__team__content__text {
   width: 75%;
   margin: 0 auto;
 }
 .home-content__about-us__extra-info__luxury {
   padding-bottom: 4em;
-  background-color: #222222;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__about-us__extra-info__luxury {
+    display: flex;
+    gap: 2em;
+  }
 }
 .home-content__about-us__extra-info__luxury__image {
   width: 100%;
   height: 18em;
-  margin-bottom: 3em;
 }
-.home-content__about-us__extra-info__luxury__icon {
+@media only screen and (min-width: 1000px) {
+  .home-content__about-us__extra-info__luxury__image {
+    width: 50%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: stretch;
+  }
+}
+.home-content__about-us__extra-info__luxury__image img {
+  max-width: 100%;
+  height: inherit;
+}
+.home-content__about-us__extra-info__luxury__content {
+  background-color: #222222;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__about-us__extra-info__luxury__content {
+    width: 50%;
+    position: relative;
+    top: 2em;
+  }
+}
+.home-content__about-us__extra-info__luxury__content__icon {
   margin-bottom: 2em;
 }
-.home-content__about-us__extra-info__luxury__title {
+.home-content__about-us__extra-info__luxury__content__title {
   margin-bottom: 1em;
 }
-.home-content__about-us__extra-info__luxury__text {
+.home-content__about-us__extra-info__luxury__content__text {
   width: 75%;
   margin: 0 auto;
 }
@@ -812,22 +916,58 @@
   padding-bottom: 1em;
   margin-bottom: 3em;
 }
-.home-content__video__title {
+@media only screen and (min-width: 1000px) {
+  .home-content__video {
+    background: linear-gradient(to right, #222222 75%, #AD9D82 25%);
+    padding: 0;
+    padding-top: 6em;
+    padding-bottom: 4em;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__video__info {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__video__info__text {
+    width: 90%;
+    margin-right: 2em;
+  }
+}
+.home-content__video__info__text__title {
   margin-bottom: 2em;
 }
-.home-content__video__subtitle {
+.home-content__video__info__text__subtitle {
   width: 80%;
   margin-bottom: 0.5em;
 }
-.home-content__video__text {
+.home-content__video__info__text__paragraph {
   margin-bottom: 2em;
   width: 95%;
 }
-.home-content__video iframe {
+.home-content__video__info__video-player {
   margin-bottom: 2em;
+  width: 95%;
+  height: 280px;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__video__info__video-player {
+    width: 75%;
+    height: 380px;
+  }
 }
 .home-content__video__button {
   margin-bottom: 3em;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__video__button {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -6em;
+  }
 }
 
 .home-content__data {
@@ -837,6 +977,13 @@
   text-align: center;
   padding-top: 3em;
   margin-bottom: 2em;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__data {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+  }
 }
 .home-content__data__projects img, .home-content__data__backers img, .home-content__data__categories img, .home-content__data__ideas img {
   margin-bottom: 3em;
@@ -853,6 +1000,11 @@
 }
 .home-content__data__projects__text, .home-content__data__backers__text, .home-content__data__categories__text, .home-content__data__ideas__text {
   padding-bottom: 3em;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__data__projects, .home-content__data__backers, .home-content__data__categories, .home-content__data__ideas {
+    width: 25%;
+  }
 }
 
 .about-content__video-content {
