@@ -14,43 +14,7 @@
         padding-bottom: 5em;
     }
 
-    &__title {
-        margin-bottom: 2em;
-    }
-
-    &__subtitle {
-        margin-bottom: 0.5em;
-    }
-
-    &__cards {
-        
-        display: none;
-        width: 70%;
-        margin: 0 auto;
-        @include featuresStyle();
-
-        @media only screen and (min-width:1000px){
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2em;
-        }
-
-
-    }
-
-    .slider-type2 {
-        width: 90%;
-
-        @media only screen and (min-width:1000px){
-            display: none;
-        }
-
-        .swiper-slide {
-
-            @include featuresStyle();
-        }
-        
-    }
+    @include featuresStyle();
 
 }
 
