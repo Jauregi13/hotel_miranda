@@ -1,0 +1,47 @@
+
+
+.home-content__menu {
+
+    margin-bottom: 2em;
+
+    &__icon {
+        text-align: end;
+    }
+
+    &__info {
+        width: 90%;
+        margin: 0 auto;
+
+        &__title {
+            margin-bottom: 2em;
+        }
+
+        &__subtitle {
+            width: 85%;
+            margin-bottom: 0.5em;
+        }
+
+        &__list {
+
+            &__item {
+                display: flex;
+                gap: 2em;
+                margin-bottom: 2em;
+
+                &__image {
+                    width: 40%;
+                    height: auto;
+                }
+
+                &__text {
+
+                    &__title {
+                        margin-bottom: 0.5em;
+                    }
+                }
+
+                
+            }
+        }
+    }
+}
