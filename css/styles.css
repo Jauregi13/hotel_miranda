@@ -353,6 +353,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .button--dark {
   background-color: #333333;
@@ -360,6 +361,15 @@
 }
 .button--bigger {
   padding-bottom: 3em;
+}
+.button--pagination {
+  padding: 1em;
+}
+.button--pagination--inactive {
+  background-color: #F8F8F8;
+  color: #111111;
+  border: none;
+  cursor: unset;
 }
 
 .title-page {
@@ -930,9 +940,12 @@
   margin-bottom: 0.5em;
 }
 .home-content__menu__info__list__item {
-  display: flex;
+  display: none;
   gap: 2em;
   margin-bottom: 2em;
+}
+.home-content__menu__info__list__item--active {
+  display: flex;
 }
 .home-content__menu__info__list__item__image {
   width: 40%;
@@ -940,6 +953,15 @@
 }
 .home-content__menu__info__list__item__text__title {
   margin-bottom: 0.5em;
+}
+.home-content__menu__pagination {
+  width: 90%;
+  margin: 0 auto;
+}
+.home-content__menu__pagination__buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
 }
 
 .home-content__rooms {
