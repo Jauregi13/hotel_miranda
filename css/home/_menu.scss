@@ -24,9 +24,13 @@
         &__list {
 
             &__item {
-                display: flex;
+                display: none;
                 gap: 2em;
                 margin-bottom: 2em;
+
+                &--active {
+                    display: flex;
+                }
 
                 &__image {
                     width: 40%;
@@ -42,6 +46,17 @@
 
                 
             }
+        }
+    }
+
+    &__pagination {
+        width: 90%;
+        margin: 0 auto;
+
+        &__buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 1em;
         }
     }
 }
