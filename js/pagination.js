@@ -3,8 +3,8 @@
 
 /* ------------- PAGINATION MENU HOME ------------------------ */
 
-const buttonPrev = document.getElementsByClassName('home-content__menu__pagination__buttons__button')[0]
-const buttonNext = document.getElementsByClassName('home-content__menu__pagination__buttons__button')[1]
+const buttonPrev = document.getElementsByClassName('home-content__menu__info__pagination__buttons__button')[0]
+const buttonNext = document.getElementsByClassName('home-content__menu__info__pagination__buttons__button')[1]
 const menuItems = document.getElementsByClassName('home-content__menu__info__list__item')
 let activeItems = 0;
 let firstIndexItem = 0;
@@ -56,9 +56,6 @@ const nextMenuList = () => {
     firstIndexItem = lastIndexItem
     lastIndexItem += activeItems
 
-    console.log(firstIndexItem);
-    console.log(lastIndexItem);
-
     actualItemsToDisplay = menuItemsArray.slice(firstIndexItem,lastIndexItem)
     
     actualItemsToDisplay.forEach((element) => {
@@ -80,9 +77,6 @@ const prevMenuList = () => {
     })
     lastIndexItem = firstIndexItem
     firstIndexItem -= activeItems
-
-    console.log(firstIndexItem);
-    console.log(lastIndexItem);
 
     actualItemsToDisplay = menuItemsArray.slice(firstIndexItem,lastIndexItem)
 
