@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const nextMenuList = () => {
 
     buttonPrev.classList.remove('button--pagination--inactive')
+    buttonPrev.disabled = false
 
     actualItemsToDisplay.forEach((element) => {
         element.classList.remove('home-content__menu__info__list__item--active')
@@ -64,6 +65,7 @@ const nextMenuList = () => {
 
     if(lastIndexItem == menuItemsArray.length){
         buttonNext.classList.add('button--pagination--inactive')
+        buttonNext.disabled = true
     }
 
 }
@@ -71,6 +73,7 @@ const nextMenuList = () => {
 const prevMenuList = () => {
 
     buttonNext.classList.remove('button--pagination--inactive')
+    buttonNext.disabled = false
 
     actualItemsToDisplay.forEach((element) => {
         element.classList.remove('home-content__menu__info__list__item--active')
@@ -86,6 +89,7 @@ const prevMenuList = () => {
 
     if(firstIndexItem === 0){
         buttonPrev.classList.add('button--pagination--inactive') 
+        buttonPrev.disabled = true
     }
 
 

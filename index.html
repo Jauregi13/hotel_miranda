@@ -145,29 +145,41 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <img class="swiper-slide__image" src="./img/slide1.jpg" alt="slide1">
+                            <div class="swiper-slide__room swiper-slide__room--smaller-size">
+                                <img class="swiper-slide__room__image" src="./img/slide1.jpg" alt="hotel room">
+                            </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class="swiper-slide__image" src="./img/slide2.jpg" alt="slide2">
+                            <div class="swiper-slide__room swiper-slide__room--smaller-size">
+                                <img class="swiper-slide__room__image" src="./img/slide2.jpg" alt="hotel room">
+                            </div>
                         </div>
                         <div class="swiper-slide">
-                            <img class="swiper-slide__image" src="./img/slide3.jpg" alt="slide3">
+                            <div class="swiper-slide__room swiper-slide__room--smaller-size">
+                                <img class="swiper-slide__room__image" src="./img/slide3.jpg" alt="hotel room">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__room swiper-slide__room--smaller-size">
+                                <img class="swiper-slide__room__image" src="./img/slide3.jpg" alt="hotel room">
+                            </div>
                         </div>
                     </div>
 
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev">
+                    <div class="swiper-button-prev swiper-button-prev--move-left">
                         <i class="fa-solid fa-angle-left"></i>
                     </div>
-                    <div class="swiper-button-next">
+                    <div class="swiper-button-next swiper-button-next--move-right">
                         <i class="fa-solid fa-angle-right"></i>
                     </div>
 
                 </div>
 
                 <div class="home-content__rooms__room-info">
-                    <h4 class="home-content__rooms__room-info__title title-content">Minimal Duplex Room</h4>
-                    <p class="home-content__rooms__room-info__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <div class="home-content__rooms__room-info__text">
+                        <h4 class="home-content__rooms__room-info__text__title title-content">Minimal Duplex Room</h4>
+                        <p class="home-content__rooms__room-info__text__paragraph paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
                     <p class="home-content__rooms__room-info__price paragraph paragraph--price">$345<span>/Night</span></p>
                 </div>
             </section>
@@ -463,7 +475,7 @@
 
                     <div class="home-content__menu__info__pagination">
                         <div class="home-content__menu__info__pagination__buttons">
-                            <button class="home-content__menu__info__pagination__buttons__button button button--pagination button--pagination--inactive"><</button>
+                            <button disabled class="home-content__menu__info__pagination__buttons__button button button--pagination button--pagination--inactive"><</button>
                             <button class="home-content__menu__info__pagination__buttons__button button button--pagination">></button>
                         </div>
                     </div>
