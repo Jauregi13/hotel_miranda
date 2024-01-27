@@ -19,13 +19,6 @@
 
                 &__room {
 
-                    height: 30em;
-
-                    &__image {
-                        width: 100%;
-                        height: auto;
-                    }
-
                     &__image-navigation {
                         position: relative;
         
@@ -88,13 +81,13 @@
 
         .swiper-button-prev.swiper-button-prev--move-left {
         
-            left: var(--swiper-navigation-sides-offset,27em);
+            left: var(--swiper-navigation-sides-offset,10em);
              
         }
     
         .swiper-button-next.swiper-button-next--move-right {
     
-            right: var(--swiper-navigation-sides-offset,27em);
+            right: var(--swiper-navigation-sides-offset,10em);
              
         }
     }

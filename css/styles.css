@@ -958,6 +958,7 @@
 .home-content__menu__info {
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 3em;
 }
 @media only screen and (min-width: 1000px) {
   .home-content__menu__info {
@@ -1035,6 +1036,42 @@
   justify-content: flex-end;
   gap: 1em;
 }
+.home-content__menu__images {
+  width: 70%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__menu__images {
+    display: flex;
+    gap: 2%;
+  }
+}
+.home-content__menu__images__image {
+  width: 32%;
+  height: auto;
+  display: none;
+}
+@media only screen and (min-width: 1000px) {
+  .home-content__menu__images__image {
+    display: block;
+  }
+}
+
+.swiper.slider-type2--smaller {
+  width: 90%;
+}
+@media only screen and (min-width: 1000px) {
+  .swiper.slider-type2 {
+    display: none;
+  }
+}
+.swiper.slider-type2 .swiper-wrapper {
+  margin-bottom: 3em;
+}
+.swiper.slider-type2 .swiper-wrapper .swiper-slide__image {
+  width: 100%;
+  height: 300px;
+}
 
 .home-content__rooms {
   text-align: center;
@@ -1101,6 +1138,19 @@
   font-size: 0.813rem;
 }
 
+.swiper.slider-type1 .swiper-slide {
+  height: 30em;
+}
+.swiper.slider-type1 .swiper-slide__image {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 1000px) {
+  .swiper.slider-type1 .swiper-slide__image {
+    width: 30em;
+  }
+}
+
 .swiper.slider-type1 {
   width: 100%;
   height: 16em;
@@ -1111,13 +1161,6 @@
   }
 }
 .swiper.slider-type1--height-auto {
-  height: auto;
-}
-.swiper.slider-type1 .swiper-wrapper .swiper-slide__room {
-  height: 30em;
-}
-.swiper.slider-type1 .swiper-wrapper .swiper-slide__room__image {
-  width: 100%;
   height: auto;
 }
 .swiper.slider-type1 .swiper-wrapper .swiper-slide__room__image-navigation {
@@ -1158,10 +1201,10 @@
 
 @media only screen and (min-width: 1000px) {
   .swiper-button-prev.swiper-button-prev--move-left {
-    left: var(--swiper-navigation-sides-offset, 27em);
+    left: var(--swiper-navigation-sides-offset, 10em);
   }
   .swiper-button-next.swiper-button-next--move-right {
-    right: var(--swiper-navigation-sides-offset, 27em);
+    right: var(--swiper-navigation-sides-offset, 10em);
   }
 }
 .home-content__video {

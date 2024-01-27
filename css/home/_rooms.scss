@@ -69,8 +69,6 @@
             }
         }
 
-        
-
         &__price {
 
             & span {
@@ -78,10 +76,23 @@
             }
         }
     }
-
-
-
 }
+
+.swiper.slider-type1 .swiper-slide {
+
+        height: 30em;
+
+        &__image {
+            
+            width: 100%;
+            height: auto;
+
+            @media only screen and (min-width: 1000px){
+                width: 30em;
+            }
+        }
+}
+
 
 @include slider.sliderType1
 
