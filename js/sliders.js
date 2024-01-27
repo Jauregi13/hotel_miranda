@@ -1,13 +1,30 @@
 
+let slidesNumber = window.innerWidth >= 1000 ? 3 : 1
+
+window.addEventListener('resize', () => {
+  
+  slidesNumber = window.innerWidth >= 1000 ? 3 : 1
+
+  sliderNavigation.params.slidesPerView = slidesNumber
+  sliderNavigation.update()
+  
+})
+
 const sliderNavigation = new Swiper('.slider-type1', {
-    // Optional parameters
-    direction: 'horizontal',
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    }
-  });
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: slidesNumber,
+  spaceBetween: 100,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+});
+
+
+
 
 
 const sliderPagination = new Swiper('.slider-type2', {

@@ -144,30 +144,34 @@
                 <div class="swiper slider-type1">
                     <div class="swiper-wrapper">
                         <!-- Slides -->
-                        <div class="swiper-slide">
-                            <img class="swiper-slide__image" src="./img/slide1.jpg" alt="slide1">
+                        <div class="swiper-slide ">
+                            <img class="swiper-slide__image swiper-slide__image--bigger" src="./img/slide1.jpg" alt="hotel room">
                         </div>
                         <div class="swiper-slide">
-                            <img class="swiper-slide__image" src="./img/slide2.jpg" alt="slide2">
+                            <img class="swiper-slide__image swiper-slide__image--bigger" src="./img/slide2.jpg" alt="hotel room">
                         </div>
                         <div class="swiper-slide">
-                            <img class="swiper-slide__image" src="./img/slide3.jpg" alt="slide3">
+                            <img class="swiper-slide__image swiper-slide__image--bigger" src="./img/slide3.jpg" alt="hotel room">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__image swiper-slide__image--bigger" src="./img/slide3.jpg" alt="hotel room">
                         </div>
                     </div>
 
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev">
+                    <div class="swiper-button-prev swiper-button-prev--move-left">
                         <i class="fa-solid fa-angle-left"></i>
                     </div>
-                    <div class="swiper-button-next">
+                    <div class="swiper-button-next swiper-button-next--move-right">
                         <i class="fa-solid fa-angle-right"></i>
                     </div>
 
                 </div>
 
                 <div class="home-content__rooms__room-info">
-                    <h4 class="home-content__rooms__room-info__title title-content">Minimal Duplex Room</h4>
-                    <p class="home-content__rooms__room-info__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <div class="home-content__rooms__room-info__text">
+                        <h4 class="home-content__rooms__room-info__text__title title-content">Minimal Duplex Room</h4>
+                        <p class="home-content__rooms__room-info__text__paragraph paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
                     <p class="home-content__rooms__room-info__price paragraph paragraph--price">$345<span>/Night</span></p>
                 </div>
             </section>
@@ -463,10 +467,35 @@
 
                     <div class="home-content__menu__info__pagination">
                         <div class="home-content__menu__info__pagination__buttons">
-                            <button class="home-content__menu__info__pagination__buttons__button button button--pagination button--pagination--inactive"><</button>
+                            <button disabled class="home-content__menu__info__pagination__buttons__button button button--pagination button--pagination--inactive"><</button>
                             <button class="home-content__menu__info__pagination__buttons__button button button--pagination">></button>
                         </div>
                     </div>
+                </div>
+
+                <div class="home-content__menu__images">
+
+                    <div class="swiper slider-type2 swiper slider-type2--smaller">
+                        <div class="swiper-wrapper swiper-wrapper--size-change">
+
+                            <div class="swiper-slide">
+                                <img src="./img/eggBacon.jpg" alt="Egg Bacon" class="swiper-slide__image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/teaCoffe.jpg" alt="Tea Coffe" class="swiper-slide__image">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/chiaOatmeal.jpg" alt="Cheese Plate" class="swiper-slide__image">
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
+                    <img src="./img/eggBacon.jpg" alt="Egg Bacon" class="home-content__menu__images__image">
+                    <img src="./img/teaCoffe.jpg" alt="Tea Coffe" class="home-content__menu__images__image">
+                    <img src="./img/chiaOatmeal.jpg" alt="Cheese Plate" class="home-content__menu__images__image">
+
                 </div>
 
                 
