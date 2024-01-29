@@ -13,9 +13,9 @@
     <body>
 
         <header class="header">
-
+            <p class="header__banner paragraph paragraph--white paragraph--second-typography">We Make Your Feel Comfortable</p>
             <div class="header__content">
-
+                
                 <div class="header__content__hamburger-icon" id="menuIcon">
                     <i class="fa-solid fa-bars"></i>
                 </div>
@@ -32,17 +32,17 @@
                     </ul>
                 </nav>
                 <div class="header__content__icons">
-                    <div class="header__content__icons__account">
+                    <div class="header__content__icons__icon">
                         <img src="./img/accountIcon.svg" alt="account"/>
                     </div>
-                    <div class="header__content__icons__search">
+                    <div class="header__content__icons__icon">
                         <img src="./img/searchIcon.svg" />
                     </div>
                 </div>
                 
-
+        
             </div>
-
+        
         </header>
 
         <section class="page-title">
@@ -56,38 +56,54 @@
         </section>
 
         <div class="room-details-content">
+
             <section class="room-details-content__hotel-image">
-                <h2 class="room-details-content__hotel-image__title title-section">DOUBLE BED</h2>
-                <h3 class="room-details-content__hotel-image__subtitle subtitle-section subtitle-section--medium subtitle-section--black">Luxury Double Bed</h3>
-                <p class="room-details-content__hotel-image__price paragraph paragraph--price">$345<span>/Night</span></p>
+
+                <div class="room-details-content__hotel-image__text">
+                    <div class="room-details-content__hotel-image__text__titles">
+                        <h2 class="room-details-content__hotel-image__text__titles__title title-section">DOUBLE BED</h2>
+                        <h3 class="room-details-content__hotel-image__text__titles__subtitle subtitle-section subtitle-section--medium subtitle-section--black">Luxury Double Bed</h3>
+                    </div>
+                    <p class="room-details-content__hotel-image__text__price paragraph paragraph--price">$345<span>/Night</span></p>
+                </div>
+
                 <img src="./img/hotel-room.jpg" alt="Hotel room" class="room-details-content__hotel-image__image">
+
             </section>
 
-            <section class="room-details-content__availability">
-                <h2 class="room-details-content__availability__title paragraph paragraph--bold">Check Availability</h2>
-                <form action="" method="post" class="room-details-content__availability__form">
+            <section class="room-details-content__check-availability">
 
-                    <label for="checkin" class="room-details-content__availability__form__label">Check In</label>
-                    <input type="date" class="room-details-content__availability__form__input input" name="checkin">
+                <h2 class="room-details-content__check-availability__title paragraph paragraph--bold">Check Availability</h2>
+                <form action="" method="post" class="room-details-content__check-availability__form">
 
-                    <label for="checkout" class="room-details-content__availability__form__label">Check Out</label>
-                    <input type="date" class="room-details-content__availability__form__input input" name="checkout">
+                    <label for="checkin" class="room-details-content__check-availability__form__label">Check In</label>
+                    <input type="date" class="room-details-content__check-availability__form__input input" name="checkin">
 
-                    <label for="name" class="room-details-content__availability__form__label">Full Name</label>
-                    <input type="text" class="room-details-content__availability__form__input input" name="name">
+                    <label for="checkout" class="room-details-content__check-availability__form__label">Check Out</label>
+                    <input type="date" class="room-details-content__check-availability__form__input input" name="checkout">
 
-                    <label for="email" class="room-details-content__availability__form__label">Email</label>
-                    <input type="email" class="room-details-content__availability__form__input input" name="email">
+                    <label for="name" class="room-details-content__check-availability__form__label">Full Name</label>
+                    <input type="text" class="room-details-content__check-availability__form__input input" name="name">
 
-                    <label for="phone" class="room-details-content__availability__form__label">Phone</label>
-                    <input type="text" class="room-details-content__availability__form__input input" name="phone">
+                    <label for="email" class="room-details-content__check-availability__form__label">Email</label>
+                    <input type="email" class="room-details-content__check-availability__form__input input" name="email">
 
-                    <label for="message" class="room-details-content__availability__form__label">Message</label>
-                    <textarea name="message" id="" cols="30" rows="10" class="room-details-content__availability__form__input input"></textarea>
+                    <label for="phone" class="room-details-content__check-availability__form__label">Phone</label>
+                    <input type="text" class="room-details-content__check-availability__form__input input" name="phone">
 
-                    <input type="submit" class="room-details-content__availability__form__button button button--bigger" value="CHECK AVAILABILITY">
+                    <label for="message" class="room-details-content__check-availability__form__label">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10" class="room-details-content__check-availability__form__input input"></textarea>
+
+                    <input type="submit" class="room-details-content__check-availability__form__button button button--bigger" value="CHECK AVAILABILITY">
 
                 </form>
+
+            </section>
+
+                <div class="room-details-content__image-check-availability__form-content">
+                    
+                </div>
+                
             </section>
 
             <section class="room-details-content__info">
@@ -191,9 +207,9 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <div class="rooms-content__room">
-                                <div class="rooms-content__room__image-navigation">
-                                    <img class="rooms-content__room__image" src="./img/hotel-room.jpg" alt="hotel room">
+                            <div class="swiper-slide__room swiper-slide__room--smaller-size">
+                                <div class="swiper-slide__room__image-navigation">
+                                    <img class="swiper-slide__room__image" src="./img/hotel-room.jpg" alt="hotel room">
                                     <div class="swiper-button-prev swiper-button-prev--move-left">
                                         <i class="fa-solid fa-angle-left"></i>
                                     </div>
@@ -201,25 +217,30 @@
                                         <i class="fa-solid fa-angle-right"></i>
                                     </div>
                                 </div>
-                                <div class="rooms-content__room__icons">
-                                    <i class="fa-solid fa-bed"></i>
-                                    <i class="fa-solid fa-wifi"></i>
-                                    <i class="fa-solid fa-car"></i>
-                                    <i class="fa-regular fa-snowflake"></i>
-                                    <i class="fa-solid fa-dumbbell"></i>
-                                    <i class="fa-solid fa-ban-smoking"></i>
-                                    <i class="fa-solid fa-martini-glass-citrus"></i>
+                                <div class="swiper-slide__room__info">
+                                    <div class="swiper-slide__room__info__icons">
+                                        <i class="fa-solid fa-bed"></i>
+                                        <i class="fa-solid fa-wifi"></i>
+                                        <i class="fa-solid fa-car"></i>
+                                        <i class="fa-regular fa-snowflake"></i>
+                                        <i class="fa-solid fa-dumbbell"></i>
+                                        <i class="fa-solid fa-ban-smoking"></i>
+                                        <i class="fa-solid fa-martini-glass-citrus"></i>
+                                    </div>
+                                    <h4 class="swiper-slide__room__info__title title-content">Minimal Duplex Room</h4>
+                                    <p class="swiper-slide__room__info__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                                 </div>
-                                <h4 class="rooms-content__room__title title-content">Minimal Duplex Room</h4>
-                                <p class="rooms-content__room__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                                <p class="rooms-content__room__price paragraph paragraph--price paragraph--price--small">$345/Night</p>
-                                <a href="#" class="rooms-content__room__book">Book Now</a>
+                                <div class="swiper-slide__room__booking">
+                                    <p class="swiper-slide__room__booking__price paragraph paragraph--price paragraph--price--small">$345/Night</p>
+                                    <hr class="swiper-slide__room__booking__line">
+                                    <a href="#" class="swiper-slide__room__booking__book">Book Now</a>
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="rooms-content__room">
-                                <div class="rooms-content__room__image-navigation">
-                                    <img class="rooms-content__room__image" src="./img/hotel-room.jpg" alt="hotel room">
+                            <div class="swiper-slide__room swiper-slide__room--smaller-size">
+                                <div class="swiper-slide__room__image-navigation">
+                                    <img class="swiper-slide__room__image" src="./img/hotel-room.jpg" alt="hotel room">
                                     <div class="swiper-button-prev swiper-button-prev--move-left">
                                         <i class="fa-solid fa-angle-left"></i>
                                     </div>
@@ -227,28 +248,30 @@
                                         <i class="fa-solid fa-angle-right"></i>
                                     </div>
                                 </div>
-                                <div class="rooms-content__room__icons">
-                                    <i class="fa-solid fa-bed"></i>
-                                    <i class="fa-solid fa-wifi"></i>
-                                    <i class="fa-solid fa-car"></i>
-                                    <i class="fa-regular fa-snowflake"></i>
-                                    <i class="fa-solid fa-dumbbell"></i>
-                                    <i class="fa-solid fa-ban-smoking"></i>
-                                    <i class="fa-solid fa-martini-glass-citrus"></i>
+                                <div class="swiper-slide__room__info">
+                                    <div class="swiper-slide__room__info__icons">
+                                        <i class="fa-solid fa-bed"></i>
+                                        <i class="fa-solid fa-wifi"></i>
+                                        <i class="fa-solid fa-car"></i>
+                                        <i class="fa-regular fa-snowflake"></i>
+                                        <i class="fa-solid fa-dumbbell"></i>
+                                        <i class="fa-solid fa-ban-smoking"></i>
+                                        <i class="fa-solid fa-martini-glass-citrus"></i>
+                                    </div>
+                                    <h4 class="swiper-slide__room__info__title title-content">Minimal Duplex Room</h4>
+                                    <p class="swiper-slide__room__info__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                                 </div>
-                                <h4 class="rooms-content__room__title title-content">Minimal Duplex Room</h4>
-                                <p class="rooms-content__room__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                                <p class="rooms-content__room__price paragraph paragraph--price paragraph--price--small">$345/Night</p>
-                                <a href="#" class="rooms-content__room__book">Book Now</a>
+                                <div class="swiper-slide__room__booking">
+                                    <p class="swiper-slide__room__booking__price paragraph paragraph--price paragraph--price--small">$345/Night</p>
+                                    <hr class="swiper-slide__room__booking__line">
+                                    <a href="#" class="swiper-slide__room__booking__book">Book Now</a>
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="rooms-content__room">
-                                <div class="rooms-content__room__image-navigation">
-                                    <img class="rooms-content__room__image" src="./img/hotel-room.jpg" alt="hotel room">
-                                    <!--
-                                        Navigation
-                                    -->
+                            <div class="swiper-slide__room swiper-slide__room--smaller-size">
+                                <div class="swiper-slide__room__image-navigation">
+                                    <img class="swiper-slide__room__image" src="./img/hotel-room.jpg" alt="hotel room">
                                     <div class="swiper-button-prev swiper-button-prev--move-left">
                                         <i class="fa-solid fa-angle-left"></i>
                                     </div>
@@ -256,26 +279,84 @@
                                         <i class="fa-solid fa-angle-right"></i>
                                     </div>
                                 </div>
-                                
-                                <div class="rooms-content__room__icons">
-                                    <i class="fa-solid fa-bed"></i>
-                                    <i class="fa-solid fa-wifi"></i>
-                                    <i class="fa-solid fa-car"></i>
-                                    <i class="fa-regular fa-snowflake"></i>
-                                    <i class="fa-solid fa-dumbbell"></i>
-                                    <i class="fa-solid fa-ban-smoking"></i>
-                                    <i class="fa-solid fa-martini-glass-citrus"></i>
+                                <div class="swiper-slide__room__info">
+                                    <div class="swiper-slide__room__info__icons">
+                                        <i class="fa-solid fa-bed"></i>
+                                        <i class="fa-solid fa-wifi"></i>
+                                        <i class="fa-solid fa-car"></i>
+                                        <i class="fa-regular fa-snowflake"></i>
+                                        <i class="fa-solid fa-dumbbell"></i>
+                                        <i class="fa-solid fa-ban-smoking"></i>
+                                        <i class="fa-solid fa-martini-glass-citrus"></i>
+                                    </div>
+                                    <h4 class="swiper-slide__room__info__title title-content">Minimal Duplex Room</h4>
+                                    <p class="swiper-slide__room__info__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
                                 </div>
-                                <h4 class="rooms-content__room__title title-content">Minimal Duplex Room</h4>
-                                <p class="rooms-content__room__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
-                                <p class="rooms-content__room__price paragraph paragraph--price paragraph--price--small">$345/Night</p>
-                                <a href="#" class="rooms-content__room__book">Book Now</a>
+                                <div class="swiper-slide__room__booking">
+                                    <p class="swiper-slide__room__booking__price paragraph paragraph--price paragraph--price--small">$345/Night</p>
+                                    <hr class="swiper-slide__room__booking__line">
+                                    <a href="#" class="swiper-slide__room__booking__book">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     
 
                 </div>
+
+                <div class="room-details-content__related-rooms__rooms-content">
+
+                    <div class="room-details-content__related-rooms__rooms-content__room">
+                        <img class="room-details-content__related-rooms__rooms-content__room__image" src="./img/hotel-room.jpg" alt="hotel room">
+                            <div class="room-details-content__related-rooms__rooms-content__room__info">
+                                <div class="room-details-content__related-rooms__rooms-content__room__info__icons">
+                                    <i class="fa-solid fa-bed"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <i class="fa-solid fa-car"></i>
+                                    <i class="fa-regular fa-snowflake"></i>
+                                    <i class="fa-solid fa-dumbbell"></i>
+                                    <i class="fa-solid fa-ban-smoking"></i>
+                                    <i class="fa-solid fa-martini-glass-citrus"></i>
+                                </div>
+                                <h4 class="room-details-content__related-rooms__rooms-content__room__info__title title-content">Minimal Duplex Room</h4>
+                                <p class="room-details-content__related-rooms__rooms-content__room__info__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                            <div class="room-details-content__related-rooms__rooms-content__room__booking">
+                                <p class="room-details-content__related-rooms__rooms-content__room__booking__price paragraph paragraph--price paragraph--price--small">$345/Night</p>
+                                <hr class="room-details-content__related-rooms__rooms-content__room__booking__line">
+                                <a href="#" class="room-details-content__related-rooms__rooms-content__room__booking__book">Book Now</a>
+                            </div>
+                    </div>
+
+                    <div class="room-details-content__related-rooms__rooms-content__room">
+                        <img class="room-details-content__related-rooms__rooms-content__room__image" src="./img/hotel-room.jpg" alt="hotel room">
+                            <div class="room-details-content__related-rooms__rooms-content__room__info">
+                                <div class="room-details-content__related-rooms__rooms-content__room__info__icons">
+                                    <i class="fa-solid fa-bed"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <i class="fa-solid fa-car"></i>
+                                    <i class="fa-regular fa-snowflake"></i>
+                                    <i class="fa-solid fa-dumbbell"></i>
+                                    <i class="fa-solid fa-ban-smoking"></i>
+                                    <i class="fa-solid fa-martini-glass-citrus"></i>
+                                </div>
+                                <h4 class="room-details-content__related-rooms__rooms-content__room__info__title title-content">Minimal Duplex Room</h4>
+                                <p class="room-details-content__related-rooms__rooms-content__room__info__text paragraph paragraph--gray">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                            <div class="room-details-content__related-rooms__rooms-content__room__booking">
+                                <p class="room-details-content__related-rooms__rooms-content__room__booking__price paragraph paragraph--price paragraph--price--small">$345/Night</p>
+                                <hr class="room-details-content__related-rooms__rooms-content__room__booking__line">
+                                <a href="#" class="room-details-content__related-rooms__rooms-content__room__booking__book">Book Now</a>
+                            </div>
+                    </div>
+
+
+                </div>
+
+                
+
+                
+
             </section>
         </div>
 
@@ -283,22 +364,26 @@
 
             <div class="footer__content">
 
-                <div class="footer__content__logo">
+                <div class="footer__content__info">
 
-                    <span class="footer__content__logo__icon">H</span>
-                    <p class="footer__content__logo__title"><b>HOTEL</b> MIRANDA</p>
-                </div>
+                    <div class="footer__content__info__logo">
 
-                <p class="footer__content__introduction paragraph paragraph--gray">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
+                        <span class="footer__content__info__logo__icon">H</span>
+                        <p class="footer__content__info__logo__title"><b>HOTEL</b> MIRANDA</p>
+                        
+                    </div>
 
-                <div class="footer__content__social-media">
-                    <i class="fa-brands fa-square-facebook"></i>
-                    <i class="fa-brands fa-square-twitter"></i>
-                    <i class="fa-brands fa-square-behance"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-square-youtube"></i>
-                </div>
+                    <p class="footer__content__info__introduction paragraph paragraph--gray">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitat ion ullamco laboris nisi.</p>
+                    <div class="footer__content__info__social-media">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-brands fa-square-behance"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </div>
+
+                </div>  
 
                 <div class="footer__content__services">
 
@@ -327,7 +412,7 @@
 
                 <div class="footer__content__contact-us">
 
-                    <h3 class="footer__content__contact-us subtitle-section">Contact Us.</h3>
+                    <h3 class="footer__content__contact-us__title subtitle-section">Contact Us.</h3>
                     <div class="footer__content__contact-us__telephone">
                         <img src="./img/telephoneIcon.svg" alt="telephoneIcon">
                         <div class="footer__content__contact-us__telephone__info">
