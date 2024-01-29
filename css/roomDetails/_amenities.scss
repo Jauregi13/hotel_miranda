@@ -4,6 +4,10 @@
 
     margin-bottom: 3em;
 
+    @media only screen and (min-width:1000px) {
+        width: 70%;
+    }
+
     &__title {
         margin-bottom: 1em;
         padding-bottom: 0.3em;
@@ -15,6 +19,11 @@
         list-style: none;
         columns: 2;
         margin-bottom: 1em;
+
+        @media only screen and (min-width:1000px) {
+            columns: 3;
+        }
+
 
         &__icon {
             margin-bottom: 1em;
