@@ -14,6 +14,7 @@ const sliderNavigation = new Swiper('.slider-type1', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
+  autoHeight: true,
   slidesPerView: slidesNumber,
   spaceBetween: 100,
   // Navigation arrows
@@ -31,6 +32,7 @@ const sliderPagination = new Swiper('.slider-type2', {
   
   autoplay: false,
   loop:true,
+  autoHeight: true,
   direction: 'horizontal',
   pagination: {
     el: '.swiper-pagination',

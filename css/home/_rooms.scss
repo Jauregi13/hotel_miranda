@@ -76,9 +76,8 @@
             }
         }
     }
-}
 
-.swiper.slider-type1 .swiper-slide {
+    & .swiper.slider-type1 .swiper-slide {
 
         height: 30em;
 
@@ -91,8 +90,8 @@
                 width: 30em;
             }
         }
+    }
 }
-
 
 @include slider.sliderType1
 
