@@ -6,14 +6,27 @@
 .rooms-content {
 
     @include roomStyle();
+    &__room {
+
+        display: none;
+
+        &--active {
+            display: block;
+        }
+
+    }  
+    
 
 }
 
 @media only screen and (min-width:1000px) and (max-width: 1450px) {
 
     .rooms-content__room {
-        display: flex;
 
+        &--active {
+            display: flex;
+        }
+        
         &__image {
             width: 35%;
         }

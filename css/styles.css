@@ -365,12 +365,18 @@
 .button--pagination {
   padding: 1em;
   border: none;
+  background-color: #FFFFFF;
+  color: #111111;
 }
 .button--pagination--inactive {
   background-color: #F8F8F8;
   color: #111111;
   border: none;
   cursor: unset;
+}
+.button--pagination--active, .button--pagination--next {
+  background-color: #BDAC8D;
+  color: #FFFFFF;
 }
 
 .title-page {
@@ -1713,9 +1719,15 @@
 .rooms-content__room__booking__book:hover {
   color: #222222;
 }
+.rooms-content__room {
+  display: none;
+}
+.rooms-content__room--active {
+  display: block;
+}
 
 @media only screen and (min-width: 1000px) and (max-width: 1450px) {
-  .rooms-content__room {
+  .rooms-content__room--active {
     display: flex;
   }
   .rooms-content__room__image {
@@ -1767,6 +1779,20 @@
     line-height: 1rem;
   }
 }
+.pagination-rooms {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: baseline;
+}
+@media only screen and (min-width: 1000px) {
+  .pagination-rooms {
+    width: 70%;
+  }
+}
+
 .rooms-content {
   width: 90%;
   margin: 0 auto;

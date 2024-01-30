@@ -27,9 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
             firstIndexItem = 0
             lastIndexItem = activeItems
 
-            console.log(firstIndexItem);
-            console.log(lastIndexItem);
-
             buttonPrev.classList.add('button--pagination--inactive')
             buttonNext.classList.remove('button--pagination--inactive')
 
@@ -97,3 +94,5 @@ const prevMenuList = () => {
 
 buttonNext.addEventListener('click', nextMenuList)
 buttonPrev.addEventListener('click', prevMenuList)
+
+
