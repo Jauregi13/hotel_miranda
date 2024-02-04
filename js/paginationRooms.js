@@ -1,15 +1,13 @@
 const buttonFirst = document.getElementById('buttonPrev')
 let buttonLast = document.getElementById('buttonNext')
 const rooms = document.getElementsByClassName('rooms-content__room')
-const paginationElement = document.querySelector('.pagination-rooms')
 const roomsArray = [...rooms]
 let roomsToDisplay = []
-let buttonsToDisplay = []
+const paginationElement = document.querySelector('.pagination-rooms')
+let buttons = []
 let activeRooms = 0;
-let firstRoomIndex = 0;
-let lastRoomIndex;
-let buttonNumbers = 0;
 let activePage
+let indexRanges = []
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -31,30 +29,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 activeRooms = newActiveRooms
 
-                lastRoomIndex = activeRooms
+                let buttonNumbers = Math.ceil(roomsArray.length / activeRooms)
 
-                roomsToDisplay.forEach((room) => {
-                    room.classList.remove('rooms-content__room--active')
-                })
+                updateIndexRangePage(activeRooms,buttonNumbers)
 
-                roomsToDisplay = roomsArray.slice(firstRoomIndex,lastRoomIndex)
+                updateRoomList(1)
 
-                roomsToDisplay.forEach((room) => {
-                    room.classList.add('rooms-content__room--active')
-                })
-
-                buttonNumbers = Math.ceil(roomsArray.length / activeRooms)
-
+                buttonFirst.disabled = true
+                buttonLast.disabled = false
+                buttonFirst.classList.add('button--pagination--inactive')
+                buttonLast.classList.remove('button--pagination--inactive')
+                
                 // Los elementos de la paginación en formato array
-                buttonsToDisplay = Array.from(paginationElement.children)
-
+                buttons = Array.from(paginationElement.children)
+                
                 // Eliminar los elementos del array que no sean el número, solo quiero los numeros de paginación
-                buttonsToDisplay.forEach((button) => {
+                buttons.forEach((button) => {
 
                     if(button.innerHTML !== '&lt;&lt;' && button.innerHTML !== '&gt;&gt;'){
-                        paginationElement.removeChild(button)
+                        button.parentNode.removeChild(button)
+                        
                     }
                 })
+                 // Vaciamos el array de buttons para añadir los nuevos
+                buttons = []
 
                 // Iteramos la cantidad de botones que tiene que tener la paginación
                 for (let index = 1; index <= buttonNumbers; index++) {
@@ -70,8 +68,18 @@ document.addEventListener('DOMContentLoaded', () => {
                         activePage = button
                     }
                     
-                    paginationElement.insertBefore(button,buttonLast)
+                    buttonLast.parentNode.insertBefore(button,buttonLast)
+                    buttons.push(button)
+
                 }
+
+                buttons.forEach((button,index) => {
+
+                    button.addEventListener('click', () => {
+                
+                        changePageRoom(index+1)
+                    })
+                })
             }
 
             
@@ -79,64 +87,83 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 })
 
-const nextPageRoom = () => {
+const updateIndexRangePage = (activeRooms,pages) => {
 
+    let firstIndexRoom = 0
+    let lastIndexRoom = activeRooms
+
+    indexRanges = []
     
-    activePage.nextElementSibling.classList.add('button--pagination--active')
-    activePage.classList.remove('button--pagination--active')
-    activePage = activePage.nextElementSibling
-    buttonFirst.classList.remove('button--pagination--inactive')
-    buttonFirst.disabled = false
+    for (let index = 0; index < pages; index++) {
 
-    if(activePage.nextElementSibling.innerHTML === '&gt;&gt;'){
-        buttonLast.classList.add('button--pagination--inactive')
-        buttonLast.disabled = true
+        indexRanges.push({
+            firstIndex : firstIndexRoom,
+            lastIndex: lastIndexRoom
+        })
+
+        firstIndexRoom = lastIndexRoom
+        lastIndexRoom += activeRooms 
     }
+}
 
-    roomsToDisplay.forEach((room) => {
+const updateRoomList = (actualPage) => {
+
+    // Elimino la clase active a todas las habitaciones
+    roomsArray.forEach((room) => {
         room.classList.remove('rooms-content__room--active')
     })
 
-    firstRoomIndex = lastRoomIndex
-    lastRoomIndex += activeRooms
+    roomsToDisplay = roomsArray.slice(indexRanges[actualPage-1].firstIndex,indexRanges[actualPage-1].lastIndex)
 
-    roomsToDisplay = roomsArray.slice(firstRoomIndex,lastRoomIndex)
-
+    // Añado la clase active a las habitaciones que se tienen que mostrar en la página actual
     roomsToDisplay.forEach((room) => {
         room.classList.add('rooms-content__room--active')
     })
 
 }
 
-const prevPageRoom = () => {
+const changePageRoom = (number) => {
 
-    activePage.previousElementSibling.classList.add('button--pagination--active')
     activePage.classList.remove('button--pagination--active')
-    activePage = activePage.previousElementSibling
+    activePage = paginationElement.children[number]
+    activePage.classList.add('button--pagination--active')
+
     buttonLast.classList.remove('button--pagination--inactive')
     buttonLast.disabled = false
 
-    if(activePage.previousElementSibling.innerHTML === '&lt;&lt;'){
+    if(number === 1){
         buttonFirst.classList.add('button--pagination--inactive')
         buttonFirst.disabled = true
+
+        buttonLast.classList.remove('button--pagination--inactive')
+        buttonFirst.disabled = false
+    }
+    else if (number === indexRanges.length){
+        buttonFirst.classList.remove('button--pagination--inactive')
+        buttonFirst.disabled = false
+
+        buttonLast.classList.add('button--pagination--inactive')
+        buttonLast.disabled = true
+    }
+    else {
+        buttonFirst.classList.remove('button--pagination--inactive')
+        buttonFirst.disabled = false
+
+        buttonLast.classList.remove('button--pagination--inactive')
+        buttonLast.disabled = false
     }
 
-    roomsToDisplay.forEach((room) => {
-        room.classList.remove('rooms-content__room--active')
-    })
-
-    lastRoomIndex = firstRoomIndex
-    firstRoomIndex -= activeRooms
-
-    roomsToDisplay = roomsArray.slice(firstRoomIndex,lastRoomIndex)
-
-    roomsToDisplay.forEach((room) => {
-        room.classList.add('rooms-content__room--active')
-    })
-
-
+    updateRoomList(number)
 }
 
 
-buttonFirst.addEventListener('click', prevPageRoom)
-buttonLast.addEventListener('click',nextPageRoom)
+buttonFirst.addEventListener('click', () => {
+    changePageRoom(1)
+})
+buttonLast.addEventListener('click', () => {
+
+    changePageRoom(indexRanges.length)
+})
+
+
+
