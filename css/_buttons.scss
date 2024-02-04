@@ -30,6 +30,8 @@
     &--pagination {
         padding: 1em;
         border: none;
+        background-color: #FFFFFF;
+        color: #111111;
         
         &--inactive {
             background-color: #F8F8F8;
@@ -37,5 +39,12 @@
             border: none;
             cursor: unset;
         }
+
+        &--active, &--next {
+            background-color: #BDAC8D;
+            color: #FFFFFF;
+        }
+
+        
     }
 }
