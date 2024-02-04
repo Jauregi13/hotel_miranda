@@ -40,38 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 buttonFirst.classList.add('button--pagination--inactive')
                 buttonLast.classList.remove('button--pagination--inactive')
                 
-                // Los elementos de la paginación en formato array
-                buttons = Array.from(paginationElement.children)
-                
-                // Eliminar los elementos del array que no sean el número, solo quiero los numeros de paginación
-                buttons.forEach((button) => {
-
-                    if(button.innerHTML !== '&lt;&lt;' && button.innerHTML !== '&gt;&gt;'){
-                        button.parentNode.removeChild(button)
-                        
-                    }
-                })
-                 // Vaciamos el array de buttons para añadir los nuevos
-                buttons = []
-
-                // Iteramos la cantidad de botones que tiene que tener la paginación
-                for (let index = 1; index <= buttonNumbers; index++) {
-                    
-                    const button = document.createElement('button')
-                    button.classList.add('pagination-rooms__button')
-                    button.classList.add('button')
-                    button.classList.add('button--pagination')
-                    button.innerHTML = index
-
-                    if(index == 1){
-                        button.classList.add('button--pagination--active')
-                        activePage = button
-                    }
-                    
-                    buttonLast.parentNode.insertBefore(button,buttonLast)
-                    buttons.push(button)
-
-                }
+                resetButtons()
 
                 buttons.forEach((button,index) => {
 
@@ -120,6 +89,48 @@ const updateRoomList = (actualPage) => {
         room.classList.add('rooms-content__room--active')
     })
 
+}
+
+const resetButtons = () => {
+
+    // Los elementos de la paginación en formato array
+    buttons = Array.from(paginationElement.children)
+    
+    // Eliminar los elementos del array que no sean el número, solo quiero los numeros de paginación
+    buttons.forEach((button) => {
+
+        if(button.innerHTML !== '&lt;&lt;' && button.innerHTML !== '&gt;&gt;'){
+            button.parentNode.removeChild(button)
+            
+        }
+    })
+     // Vaciamos el array de buttons para añadir los nuevos
+    buttons = []
+
+    addNewButtons()
+
+}
+
+const addNewButtons = () => {
+
+    // Iteramos la cantidad de botones que tiene que tener la paginación
+    for (let index = 1; index <= indexRanges.length; index++) {
+                    
+        const button = document.createElement('button')
+        button.classList.add('pagination-rooms__button')
+        button.classList.add('button')
+        button.classList.add('button--pagination')
+        button.innerHTML = index
+
+        if(index == 1){
+            button.classList.add('button--pagination--active')
+            activePage = button
+        }
+        
+        buttonLast.parentNode.insertBefore(button,buttonLast)
+        buttons.push(button)
+
+    }
 }
 
 const changePageRoom = (number) => {
